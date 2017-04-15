@@ -19,19 +19,25 @@ layout: default
         </div>
       </label>
       <h5><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ page.time }}  min
-        {% if page.vegetarian %}
+        {% if page.ontbijt %}
         <span class="icon-vegetarian"></span>
         {% endif %}
-        {% if page.hormone %}
+        {% if page.tussendoortje %}
         <span class="icon-hormone"></span>
         {% endif %}
-        {% if page.glutenFree %}
+        {% if page.lunch %}
         <span class="icon-nogluten"></span>
         {% endif %}
-        {% if page.dairyFree %}
+        {% if page.diner %}
         <span class="icon-nomilk"></span>
         {% endif %}
-        {% if page.sugarFree %}
+        {% if page.sideDish %}
+        <span class="icon-nosugar"></span>
+        {% endif %}
+        {% if page.toetje %}
+        <span class="icon-nosugar"></span>
+        {% endif %}
+        {% if page.leftOvers %}
         <span class="icon-nosugar"></span>
         {% endif %}</h5>
       <p><strong>{{ page.intro }}</strong></p>

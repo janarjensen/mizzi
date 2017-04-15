@@ -38,7 +38,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-hormone:before {
+.icon-tussendoortje:before {
   content: "\61";
 }
 .icon-nogluten:before {
@@ -50,6 +50,6 @@
 .icon-nosugar:before {
   content: "\64";
 }
-.icon-vegetarian:before {
+.icon-ontbijt:before {
   content: "\65";
 }

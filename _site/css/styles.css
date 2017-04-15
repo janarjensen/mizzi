@@ -6,37 +6,46 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Special Elite", cursive; }
+  background: #FFEEEE;
+  background: -webkit-linear-gradient(to bottom, #DDEFBB, #FFEEEE);
+  background: linear-gradient(to bottom, #DDEFBB, #FFEEEE);
+  font-family: "Amatic SC", cursive; }
 
 h1, h2, h3, h4 {
   text-align: center;
   color: #444444; }
 
+h1 {
+  font-size: 6em; }
+
+h2 {
+  font-weight: bolder; }
+
 h5 {
   font-size: 2em;
-  color: #008d90;
+  color: orchid;
   margin-top: 50px; }
 
 h6 {
   font-size: 1.3em;
-  color: #008d90;
+  color: orchid;
   margin-top: 50px; }
 
 p, a {
   font-size: 1.3em; }
 
 #bl-logo-svg {
-  fill: #008d90; }
+  fill: orchid; }
 
 #bl-leaf-svg {
-  fill: #008d90; }
+  fill: orchid; }
 
 section {
   margin-top: 4vh;
   margin-bottom: 4vh; }
 
 a {
-  color: #008d90;
+  color: orchid;
   margin: 5px; }
   a:hover {
     color: #8A2BE2;
@@ -69,9 +78,7 @@ ul {
     text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
 
 .info {
-  background: #70e1f5;
-  background: -webkit-linear-gradient(to bottom, #ffd194, #70e1f5);
-  background: linear-gradient(to bottom, #ffd194, #70e1f5);
+  background: #DDEFBB;
   min-height: 50vh;
   margin: 25px 0px;
   padding: 5vw;
@@ -101,7 +108,7 @@ ul {
     transform: scale(1.3); }
   .statNavContainer #statNav {
     background-color: white;
-    border: 2px solid #008d90;
+    border: 2px solid orchid;
     border-radius: 15px;
     min-height: 26px;
     line-height: 30px;
@@ -123,7 +130,7 @@ ul {
 
 footer {
   margin-top: 8vh;
-  border-top: 1px dotted #008d90;
+  border-top: 1px dotted orchid;
   padding-top: 7vh; }
   footer #footerNav {
     margin-bottom: 8vh; }
@@ -178,8 +185,8 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     background: #3494E6;
-    background: -webkit-linear-gradient(to left, #8A2BE2, #008d90);
-    background: linear-gradient(to left, #8A2BE2, #008d90);
+    background: -webkit-linear-gradient(to left, #8A2BE2, orchid);
+    background: linear-gradient(to left, #8A2BE2, orchid);
     min-height: 30vh;
     border: 10px solid white;
     border-radius: 20px;
@@ -287,7 +294,7 @@ footer {
     #receptenSection .receptCard h2 a, #weetjesSection .receptCard h2 a, #blogsSection .receptCard h2 a {
       color: white; }
       #receptenSection .receptCard h2 a:hover, #weetjesSection .receptCard h2 a:hover, #blogsSection .receptCard h2 a:hover {
-        color: #008d90; }
+        color: orchid; }
   #receptenSection .receptCard .receptInfoCard, #weetjesSection .receptCard .receptInfoCard, #blogsSection .receptCard .receptInfoCard {
     margin: 0 10px; }
     #receptenSection .receptCard .receptInfoCard .receptInfo, #weetjesSection .receptCard .receptInfoCard .receptInfo, #blogsSection .receptCard .receptInfoCard .receptInfo {
@@ -353,7 +360,7 @@ footer {
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: #008d90;
+  background: orchid;
   border-radius: 10px; }
 #receptSection .contentContent input[type=range]::-webkit-slider-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -372,7 +379,7 @@ footer {
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: #008d90;
+  background: orchid;
   border-radius: 10px; }
 #receptSection .contentContent input[type=range]::-moz-range-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -389,7 +396,7 @@ footer {
 #receptSection .contentContent input[type=range]::-ms-fill-lower {
   border-radius: 20px; }
 #receptSection .contentContent input[type=range]::-ms-fill-upper {
-  background: #008d90;
+  background: orchid;
   border-radius: 20px; }
 #receptSection .contentContent input[type=range]::-ms-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -400,7 +407,7 @@ footer {
   cursor: pointer;
   height: 11.4px; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-lower {
-  background: #008d90; }
+  background: orchid; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-upper {
   background: #444444; }
 
@@ -415,8 +422,8 @@ footer {
 .generalPageSection .grayLine {
   height: 3vh;
   background: #3494E6;
-  background: -webkit-linear-gradient(to left, white, #008d90, #8A2BE2, #008d90, white);
-  background: linear-gradient(to left, white, #008d90, #8A2BE2, #008d90, white);
+  background: -webkit-linear-gradient(to left, white, orchid, #8A2BE2, orchid, white);
+  background: linear-gradient(to left, white, orchid, #8A2BE2, orchid, white);
   margin-top: 35vh;
   width: 95vw;
   margin-left: auto;

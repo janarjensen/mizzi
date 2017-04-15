@@ -9,33 +9,42 @@ title: recepten
 		</div>
 		<div class="receptenInfo">
 			<div id="receptSuffice">
-				<p id="vegetarisch" class="suffice">vegetarisch <span class="icon-vegetarian"></span></p>
-				<p id="hormoon" class="suffice">hormoon <span class="icon-hormone"></span></p>
-				<p id="hormoon" class="suffice">glutenvrij <span class="icon-noGluten"></span></p>
-				<p id="hormoon" class="suffice">zuivelvrij <span class="icon-noMilk"></span></p>
-				<p id="hormoon" class="suffice">suikervrij <span class="icon-noSugar"></span></p>
+				<p class="suffice">ontbijt <i class="fa fa-bus" aria-hidden="true"></i></p>
+				<p class="suffice">tussendoortje <i class="fa fa-bell" aria-hidden="true"></i></p>
+				<p class="suffice">lunch <i class="fa fa-certificate" aria-hidden="true"></i></p>
+				<p class="suffice">diner <i class="fa fa-cutlery" aria-hidden="true"></i></p>
+				<p class="suffice">side-dish <i class="fa fa-check-square" aria-hidden="true"></i></p>
+				<p class="suffice">toetje <i class="fa fa-cloud-download" aria-hidden="true"></i></p>
+				<p class="suffice">left-overs <i class="fa fa-eraser" aria-hidden="true"></i></p>
 			</div>
 			<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 		</div>
 		<div class="contentNav height0">
 			{% for recept in site.recepten %}
-				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
-					{% if recept.vegetarian %}
-					<span class="icon-vegetarian"></span>
-					{% endif %}
-					{% if recept.hormone %}
-					<span class="icon-hormone"></span>
-					{% endif %}
-					{% if recept.glutenFree %}
-					<span class="icon-nogluten"></span>
-					{% endif %}
-					{% if recept.dairyFree %}
-					<span class="icon-nomilk"></span>
-					{% endif %}
-					{% if recept.sugarFree %}
-					<span class="icon-nosugar"></span>
-					{% endif %}
-				</a>
+				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a>
+				<p>
+					{% if page.ontbijt %}
+	        <i class="fa fa-bus" aria-hidden="true"></i>
+	        {% endif %}
+	        {% if page.tussendoortje %}
+	        <i class="fa fa-bell" aria-hidden="true"></i>
+	        {% endif %}
+	        {% if page.lunch %}
+	        <i class="fa fa-certificate" aria-hidden="true"></i>
+	        {% endif %}
+	        {% if page.diner %}
+	        <i class="fa fa-cutlery" aria-hidden="true"></i>
+	        {% endif %}
+	        {% if page.sideDish %}
+	        <i class="fa fa-check-square" aria-hidden="true"></i>
+	        {% endif %}
+	        {% if page.toetje %}
+	        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+	        {% endif %}
+	        {% if page.leftOvers %}
+	        <i class="fa fa-eraser" aria-hidden="true"></i>
+	        {% endif %}
+				</p>
 			{% endfor %}
 		</div>
 		<div class="row">
@@ -47,21 +56,27 @@ title: recepten
 							<div class="receptInfo">
 								<strong><p>{{ recept.intro }}</p></strong>
 								<p><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ recept.time }}  min
-						      {% if recept.vegetarian %}
-						      <span class="icon-vegetarian"></span>
-						      {% endif %}
-									{% if recept.hormone %}
-									<span class="icon-hormone">
-									{% endif %}
-									{% if recept.glutenFree %}
-									<span class="icon-nogluten"></span>
-									{% endif %}
-									{% if recept.dairyFree %}
-									<span class="icon-nomilk"></span>
-									{% endif %}
-									{% if recept.sugarFree %}
-									<span class="icon-nosugar"></span>
-									{% endif %}
+									{% if page.ontbijt %}
+					        <i class="fa fa-bus" aria-hidden="true"></i>
+					        {% endif %}
+					        {% if page.tussendoortje %}
+					        <i class="fa fa-bell" aria-hidden="true"></i>
+					        {% endif %}
+					        {% if page.lunch %}
+					        <i class="fa fa-certificate" aria-hidden="true"></i>
+					        {% endif %}
+					        {% if page.diner %}
+					        <i class="fa fa-cutlery" aria-hidden="true"></i>
+					        {% endif %}
+					        {% if page.sideDish %}
+					        <i class="fa fa-check-square" aria-hidden="true"></i>
+					        {% endif %}
+					        {% if page.toetje %}
+					        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+					        {% endif %}
+					        {% if page.leftOvers %}
+					        <i class="fa fa-eraser" aria-hidden="true"></i>
+					        {% endif %}
 								</p>
 							</div>
 							<div class="receptIntro">
