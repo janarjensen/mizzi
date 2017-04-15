@@ -1,9 +1,8 @@
 # site settings
-title: Bloei en Leef
-email: info@bloeienleef.nl
-description: Bloei en Leef staat voor een gezonde en eerlijke levensstijl.
-baseurl: ""
-url: "http://localhost:"
+title: Koken met Mizzi
+email: info@info.nl
+description: Hot poppin' snoopie snoopie / Sweet and spicy gettin' Feisty
+baseurl: "mizzi.nl"
 permalink: pretty
 
 # collections

@@ -47,7 +47,7 @@ a h2:hover, a h4:hover {
   text-decoration: none; }
 
 ul {
-  list-style-image: url(/mizzi/favicon.ico);
+  list-style-image: url("www.mizzi.nl/favicon.ico");
   font-size: 1.3em;
   line-height: 20px; }
 
