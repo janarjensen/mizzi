@@ -21,30 +21,29 @@ title: recepten
 		</div>
 		<div class="contentNav height0">
 			{% for recept in site.recepten %}
-				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a>
-				<p>
-					{% if page.ontbijt %}
+				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
+					{% if recept.ontbijt %}
 	        <i class="fa fa-bus" aria-hidden="true"></i>
 	        {% endif %}
-	        {% if page.tussendoortje %}
+	        {% if recept.tussendoortje %}
 	        <i class="fa fa-bell" aria-hidden="true"></i>
 	        {% endif %}
-	        {% if page.lunch %}
+	        {% if recept.lunch %}
 	        <i class="fa fa-certificate" aria-hidden="true"></i>
 	        {% endif %}
-	        {% if page.diner %}
+	        {% if recept.diner %}
 	        <i class="fa fa-cutlery" aria-hidden="true"></i>
 	        {% endif %}
-	        {% if page.sideDish %}
+	        {% if recept.sideDish %}
 	        <i class="fa fa-check-square" aria-hidden="true"></i>
 	        {% endif %}
-	        {% if page.toetje %}
+	        {% if recept.toetje %}
 	        <i class="fa fa-cloud-download" aria-hidden="true"></i>
 	        {% endif %}
-	        {% if page.leftOvers %}
+	        {% if recept.leftOvers %}
 	        <i class="fa fa-eraser" aria-hidden="true"></i>
 	        {% endif %}
-				</p>
+				</a>
 			{% endfor %}
 		</div>
 		<div class="row">
@@ -56,25 +55,25 @@ title: recepten
 							<div class="receptInfo">
 								<strong><p>{{ recept.intro }}</p></strong>
 								<p><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ recept.time }}  min
-									{% if page.ontbijt %}
+									{% if recept.ontbijt %}
 					        <i class="fa fa-bus" aria-hidden="true"></i>
 					        {% endif %}
-					        {% if page.tussendoortje %}
+					        {% if recept.tussendoortje %}
 					        <i class="fa fa-bell" aria-hidden="true"></i>
 					        {% endif %}
-					        {% if page.lunch %}
+					        {% if recept.lunch %}
 					        <i class="fa fa-certificate" aria-hidden="true"></i>
 					        {% endif %}
-					        {% if page.diner %}
+					        {% if recept.diner %}
 					        <i class="fa fa-cutlery" aria-hidden="true"></i>
 					        {% endif %}
-					        {% if page.sideDish %}
+					        {% if recept.sideDish %}
 					        <i class="fa fa-check-square" aria-hidden="true"></i>
 					        {% endif %}
-					        {% if page.toetje %}
+					        {% if recept.toetje %}
 					        <i class="fa fa-cloud-download" aria-hidden="true"></i>
 					        {% endif %}
-					        {% if page.leftOvers %}
+					        {% if recept.leftOvers %}
 					        <i class="fa fa-eraser" aria-hidden="true"></i>
 					        {% endif %}
 								</p>
