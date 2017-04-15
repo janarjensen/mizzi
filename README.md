@@ -1,2 +1,2 @@
 # mizzi
-koken met Mizzi
+koken met Mizzi en programmeren met Arjen
