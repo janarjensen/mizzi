@@ -1,0 +1,81 @@
+html
+  width: 100%
+  \::-webkit-scrollbar
+    display: none
+body
+  margin: 0
+  padding: 0
+
+  // font-family: 'Lobster', cursive
+  font-family: 'Special Elite', cursive
+
+h1, h2, h3, h4
+  text-align: center
+  color: $bl-text-color
+
+h5
+  font-size: 2em
+  color: $bl-green
+  margin-top: 50px
+
+h6
+  font-size: 1.3em
+  color: $bl-green
+  margin-top: 50px
+
+
+p, a
+  font-size: 1.3em
+
+#bl-logo-svg
+  fill: $bl-green
+#bl-leaf-svg
+  fill: $bl-green
+
+section
+  margin-top: 4vh
+  margin-bottom: 4vh
+a
+  color: $bl-green
+  margin: 5px
+  &:hover
+    color: $bl-hover-color
+    text-decoration: none
+
+a
+  h2, h4
+    &:hover
+      color: $bl-hover-color
+      text-decoration: none
+
+ul
+  list-style-image: url($baseurl + "/favicon.ico")
+  font-size: 1.3em
+  line-height: 20px
+
+.gridSpace
+  margin: 10px
+
+.lobster
+  font-family: 'Lobster', cursive
+
+.titleElement
+  background-position: center
+  background-size: cover
+  height: 50vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  margin: 25px 0px
+  border-radius: $bl-border-radius
+  h2, h1
+    align-self: center
+    color: white
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12
+  padding: 0px
+.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5
+  padding: 0px
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+  padding: 0px

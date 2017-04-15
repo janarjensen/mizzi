@@ -1,0 +1,18 @@
+# site settings
+title: Bloei en Leef
+email: info@bloeienleef.nl
+description: Bloei en Leef staat voor een gezonde en eerlijke levensstijl.
+baseurl: /mizzi
+url: "http://localhost:"
+permalink: pretty
+
+# collections
+collections:
+  recepten:
+    output: true
+
+  weetjes:
+    output: true
+
+  blogs:
+    output: true

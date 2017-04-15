@@ -1,0 +1,423 @@
+html {
+  width: 100%; }
+  html ::-webkit-scrollbar {
+    display: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Special Elite", cursive; }
+
+h1, h2, h3, h4 {
+  text-align: center;
+  color: #444444; }
+
+h5 {
+  font-size: 2em;
+  color: #008d90;
+  margin-top: 50px; }
+
+h6 {
+  font-size: 1.3em;
+  color: #008d90;
+  margin-top: 50px; }
+
+p, a {
+  font-size: 1.3em; }
+
+#bl-logo-svg {
+  fill: #008d90; }
+
+#bl-leaf-svg {
+  fill: #008d90; }
+
+section {
+  margin-top: 4vh;
+  margin-bottom: 4vh; }
+
+a {
+  color: #008d90;
+  margin: 5px; }
+  a:hover {
+    color: #8A2BE2;
+    text-decoration: none; }
+
+a h2:hover, a h4:hover {
+  color: #8A2BE2;
+  text-decoration: none; }
+
+ul {
+  list-style-image: url(/mizzi/favicon.ico);
+  font-size: 1.3em;
+  line-height: 20px; }
+
+.gridSpace {
+  margin: 10px; }
+
+.lobster {
+  font-family: "Lobster", cursive; }
+
+.titleElement {
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px 0px;
+  border-radius: 20px; }
+  .titleElement h2, .titleElement h1 {
+    align-self: center;
+    color: white;
+    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12 {
+  padding: 0px; }
+
+.col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5 {
+  padding: 0px; }
+
+.col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+  padding: 0px; }
+
+.statNavContainer {
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  max-width: 40px;
+  max-height: 40px;
+  margin-right: 20px;
+  z-index: 30; }
+  .statNavContainer .statNavLogo svg {
+    filter: drop-shadow(0px 4px 3px rgba(255, 255, 255, 0.5)); }
+  .statNavContainer .statNavLogo:hover {
+    cursor: pointer;
+    transform: scale(1.3); }
+  .statNavContainer #statNav {
+    background-color: white;
+    border: 2px solid #008d90;
+    border-radius: 15px;
+    min-height: 26px;
+    line-height: 30px;
+    margin-right: 20px;
+    transition: 700ms;
+    position: fixed;
+    top: 25px; }
+    .statNavContainer #statNav nav {
+      display: inline;
+      justify-content: flex-start; }
+      .statNavContainer #statNav nav a {
+        margin: 0px 10px; }
+  .statNavContainer .clicked {
+    left: 70px;
+    opacity: 1; }
+  .statNavContainer .unClicked {
+    left: -2000px;
+    opacity: 0; }
+
+footer {
+  margin-top: 8vh;
+  border-top: 1px dotted #008d90;
+  padding-top: 7vh; }
+  footer #footerNav {
+    margin-bottom: 8vh; }
+    footer #footerNav #nav1 {
+      display: inline; }
+      footer #footerNav #nav1 a:nth-child(1) {
+        font-size: 1em; }
+      footer #footerNav #nav1 a:nth-child(2) {
+        font-size: 4em; }
+      footer #footerNav #nav1 a:nth-child(3) {
+        font-size: 1.5em; }
+      footer #footerNav #nav1 a:nth-child(4) {
+        font-size: 2.3em;
+        color: hotpink; }
+        footer #footerNav #nav1 a:nth-child(4):hover {
+          color: #8A2BE2; }
+      footer #footerNav #nav1 a:nth-child(5) {
+        font-size: 1.1em;
+        border: 2px dotted #8A2BE2;
+        padding: 0.2em;
+        border-radius: 1.2em; }
+      footer #footerNav #nav1 a:nth-child(6) {
+        font-size: 2.5em;
+        color: chocolate; }
+        footer #footerNav #nav1 a:nth-child(6):hover {
+          color: #8A2BE2; }
+    footer #footerNav #nav2 {
+      display: inline; }
+      footer #footerNav #nav2 a:nth-child(1) {
+        font-size: 1em; }
+      footer #footerNav #nav2 a:nth-child(2) {
+        font-size: 1.5em; }
+      footer #footerNav #nav2 a:nth-child(3) {
+        font-size: 2.2em; }
+      footer #footerNav #nav2 a:nth-child(4) {
+        font-size: 1em; }
+      footer #footerNav #nav2 a:nth-child(5) {
+        font-size: 3em;
+        color: gold; }
+        footer #footerNav #nav2 a:nth-child(5):hover {
+          color: #8A2BE2; }
+      footer #footerNav #nav2 a:nth-child(6) {
+        font-size: 1.3em; }
+      footer #footerNav #nav2 a:nth-child(7) {
+        font-size: 1em; }
+      footer #footerNav #nav2 a:nth-child(8) {
+        font-size: 2.8em; }
+      footer #footerNav #nav2 a:nth-child(9) {
+        font-size: 1.3em; }
+  footer #socialMedia {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #3494E6;
+    background: -webkit-linear-gradient(to left, #8A2BE2, #008d90);
+    background: linear-gradient(to left, #8A2BE2, #008d90);
+    min-height: 30vh;
+    border: 10px solid white;
+    border-radius: 20px;
+    color: white; }
+    footer #socialMedia h3 {
+      color: white; }
+      footer #socialMedia h3 .lobster {
+        font-size: 2em; }
+    footer #socialMedia .socialMediaContainer {
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%; }
+      footer #socialMedia .socialMediaContainer i {
+        color: white;
+        margin: 3%;
+        font-size: 4em; }
+        footer #socialMedia .socialMediaContainer i:hover {
+          text-shadow: 2px 2px 3px black; }
+  footer .card {
+    height: 30vh;
+    border-radius: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../img/products/bloei-en-leef-kookboek.jpg"); }
+    footer .card .fadeCard {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0); }
+      footer .card .fadeCard:hover {
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0.8);
+        transition: 200ms; }
+        footer .card .fadeCard:hover .cardInfo {
+          opacity: 1;
+          transition: 300ms; }
+      footer .card .fadeCard .cardInfo {
+        justify-content: center;
+        margin: auto 20px 0 20px;
+        opacity: 0; }
+      footer .card .fadeCard .cardTitle {
+        background-color: rgba(255, 0, 0, 0.5);
+        padding: 2px;
+        border-radius: 10px;
+        margin: auto auto;
+        margin-bottom: 15px;
+        justify-content: flex-end;
+        width: 50%; }
+      footer .card .fadeCard h2 {
+        color: white; }
+
+#copyright {
+  margin-top: 8vh;
+  margin-bottom: 0;
+  background-color: #DCDCDC;
+  padding-top: 3px; }
+  #copyright p {
+    display: inline;
+    margin: 0 2%; }
+  #copyright img {
+    max-width: 1.3em; }
+
+#receptenSection .receptenInfo, #weetjesSection .receptenInfo, #blogsSection .receptenInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; }
+  #receptenSection .receptenInfo #receptSuffice, #weetjesSection .receptenInfo #receptSuffice, #blogsSection .receptenInfo #receptSuffice {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    #receptenSection .receptenInfo #receptSuffice .suffice, #weetjesSection .receptenInfo #receptSuffice .suffice, #blogsSection .receptenInfo #receptSuffice .suffice {
+      margin-right: 20px; }
+  #receptenSection .receptenInfo #searchIcon, #weetjesSection .receptenInfo #searchIcon, #blogsSection .receptenInfo #searchIcon {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-bottom: auto; }
+    #receptenSection .receptenInfo #searchIcon:hover, #weetjesSection .receptenInfo #searchIcon:hover, #blogsSection .receptenInfo #searchIcon:hover {
+      cursor: pointer; }
+#receptenSection .contentNav, #weetjesSection .contentNav, #blogsSection .contentNav {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+#receptenSection .height0, #weetjesSection .height0, #blogsSection .height0 {
+  height: 0; }
+#receptenSection .heightAuto, #weetjesSection .heightAuto, #blogsSection .heightAuto {
+  height: auto; }
+#receptenSection .receptCard, #weetjesSection .receptCard, #blogsSection .receptCard {
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px; }
+  #receptenSection .receptCard h2, #weetjesSection .receptCard h2, #blogsSection .receptCard h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    margin: 10px; }
+    #receptenSection .receptCard h2 a, #weetjesSection .receptCard h2 a, #blogsSection .receptCard h2 a {
+      color: white; }
+      #receptenSection .receptCard h2 a:hover, #weetjesSection .receptCard h2 a:hover, #blogsSection .receptCard h2 a:hover {
+        color: #008d90; }
+  #receptenSection .receptCard .receptInfoCard, #weetjesSection .receptCard .receptInfoCard, #blogsSection .receptCard .receptInfoCard {
+    margin: 0 10px; }
+    #receptenSection .receptCard .receptInfoCard .receptInfo, #weetjesSection .receptCard .receptInfoCard .receptInfo, #blogsSection .receptCard .receptInfoCard .receptInfo {
+      color: white;
+      text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;
+      padding: 10px; }
+    #receptenSection .receptCard .receptInfoCard .receptIntro, #weetjesSection .receptCard .receptInfoCard .receptIntro, #blogsSection .receptCard .receptInfoCard .receptIntro {
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      opacity: 0; }
+    #receptenSection .receptCard .receptInfoCard:hover, #weetjesSection .receptCard .receptInfoCard:hover, #blogsSection .receptCard .receptInfoCard:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 10px; }
+  #receptenSection .receptCard .receptInfoCard:hover .receptIntro, #weetjesSection .receptCard .receptInfoCard:hover .receptIntro, #blogsSection .receptCard .receptInfoCard:hover .receptIntro {
+    opacity: 1; }
+  #receptenSection .receptCard .receptInfoCard:hover .receptInfo, #weetjesSection .receptCard .receptInfoCard:hover .receptInfo, #blogsSection .receptCard .receptInfoCard:hover .receptInfo {
+    color: #444444;
+    text-shadow: none; }
+
+#receptSection .contentTitleInfo, #weetjeSection .contentTitleInfo, #blogSection .contentTitleInfo {
+  text-shadow: 0px 4px 3px black;
+  margin-top: -65px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px 0 14px; }
+  #receptSection .contentTitleInfo #backToPrevious, #weetjeSection .contentTitleInfo #backToPrevious, #blogSection .contentTitleInfo #backToPrevious {
+    color: white;
+    align-self: baseline; }
+    #receptSection .contentTitleInfo #backToPrevious:hover, #weetjeSection .contentTitleInfo #backToPrevious:hover, #blogSection .contentTitleInfo #backToPrevious:hover {
+      color: #8A2BE2; }
+  #receptSection .contentTitleInfo #date, #weetjeSection .contentTitleInfo #date, #blogSection .contentTitleInfo #date {
+    color: white;
+    align-self: baseline; }
+#receptSection .contentContent label, #weetjeSection .contentContent label, #blogSection .contentContent label {
+  width: 100%; }
+  #receptSection .contentContent label .inputBar, #weetjeSection .contentContent label .inputBar, #blogSection .contentContent label .inputBar {
+    display: flex;
+    flex-direction: row;
+    margin: 20px; }
+    #receptSection .contentContent label .inputBar input, #weetjeSection .contentContent label .inputBar input, #blogSection .contentContent label .inputBar input {
+      margin: 0 20px; }
+#receptSection .contentContent .completed, #weetjeSection .contentContent .completed, #blogSection .contentContent .completed {
+  color: gray;
+  text-decoration: line-through; }
+#receptSection .contentContent ul:hover, #weetjeSection .contentContent ul:hover, #blogSection .contentContent ul:hover {
+  cursor: pointer;
+  cursor: hand; }
+#receptSection .contentContent #date, #weetjeSection .contentContent #date, #blogSection .contentContent #date {
+  text-align: right; }
+#receptSection .contentContent a, #weetjeSection .contentContent a, #blogSection .contentContent a {
+  text-decoration: underline; }
+#receptSection .contentContent input[type=range], #weetjeSection .contentContent input[type=range], #blogSection .contentContent input[type=range] {
+  -webkit-appearance: none;
+  width: 100%;
+  margin: 7.3px 0; }
+#receptSection .contentContent input[type=range]:focus, #weetjeSection .contentContent input[type=range]:focus, #blogSection .contentContent input[type=range]:focus {
+  outline: none; }
+#receptSection .contentContent input[type=range]::-webkit-slider-runnable-track, #weetjeSection .contentContent input[type=range]::-webkit-slider-runnable-track, #blogSection .contentContent input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #008d90;
+  border-radius: 10px; }
+#receptSection .contentContent input[type=range]::-webkit-slider-thumb, #weetjeSection .contentContent input[type=range]::-webkit-slider-thumb, #blogSection .contentContent input[type=range]::-webkit-slider-thumb {
+  box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #8A2BE2;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.3px; }
+#receptSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track, #weetjeSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track, #blogSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #444444; }
+#receptSection .contentContent input[type=range]::-moz-range-track, #weetjeSection .contentContent input[type=range]::-moz-range-track, #blogSection .contentContent input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
+  background: #008d90;
+  border-radius: 10px; }
+#receptSection .contentContent input[type=range]::-moz-range-thumb, #weetjeSection .contentContent input[type=range]::-moz-range-thumb, #blogSection .contentContent input[type=range]::-moz-range-thumb {
+  box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
+  border: 1.8px solid rgba(0, 0, 30, 0);
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #8A2BE2;
+  cursor: pointer; }
+#receptSection .contentContent input[type=range]::-ms-track, #weetjeSection .contentContent input[type=range]::-ms-track, #blogSection .contentContent input[type=range]::-ms-track {
+  width: 100%;
+  height: 11.4px;
+  cursor: pointer; }
+#receptSection .contentContent input[type=range]::-ms-fill-lower, #weetjeSection .contentContent input[type=range]::-ms-fill-lower, #blogSection .contentContent input[type=range]::-ms-fill-lower {
+  border-radius: 20px; }
+#receptSection .contentContent input[type=range]::-ms-fill-upper, #weetjeSection .contentContent input[type=range]::-ms-fill-upper, #blogSection .contentContent input[type=range]::-ms-fill-upper {
+  background: #008d90;
+  border-radius: 20px; }
+#receptSection .contentContent input[type=range]::-ms-thumb, #weetjeSection .contentContent input[type=range]::-ms-thumb, #blogSection .contentContent input[type=range]::-ms-thumb {
+  box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
+  height: 26px;
+  width: 26px;
+  border-radius: 15px;
+  background: #8A2BE2;
+  cursor: pointer;
+  height: 11.4px; }
+#receptSection .contentContent input[type=range]:focus::-ms-fill-lower, #weetjeSection .contentContent input[type=range]:focus::-ms-fill-lower, #blogSection .contentContent input[type=range]:focus::-ms-fill-lower {
+  background: #008d90; }
+#receptSection .contentContent input[type=range]:focus::-ms-fill-upper, #weetjeSection .contentContent input[type=range]:focus::-ms-fill-upper, #blogSection .contentContent input[type=range]:focus::-ms-fill-upper {
+  background: #444444; }
+
+.generalPageSection .titlePicture {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 60vh;
+  border-radius: 100%;
+  margin: -32.5vh auto 0 auto; }
+.generalPageSection .grayLine {
+  height: 3vh;
+  background: #3494E6;
+  background: -webkit-linear-gradient(to left, white, #008d90, #8A2BE2, #008d90, white);
+  background: linear-gradient(to left, white, #008d90, #8A2BE2, #008d90, white);
+  margin-top: 35vh;
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto; }
+.generalPageSection img {
+  display: inline;
+  width: 500px;
+  max-width: 90vw;
+  margin: 0 auto;
+  border-radius: 20px; }
