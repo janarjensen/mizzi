@@ -5,34 +5,31 @@ html
 body
   margin: 0
   padding: 0
-  background: #FFEEEE
-  background: -webkit-linear-gradient(to bottom, #DDEFBB, #FFEEEE)
-  background: linear-gradient(to bottom, #DDEFBB, #FFEEEE)
-
-
-
 
   // font-family: 'Lobster', cursive
-  font-family: 'Amatic SC', cursive
+  font-family: 'Dosis', sans-serif
+
 
 h1, h2, h3, h4
   text-align: center
-  color: $bl-text-color
+  color: $textColor
 
 h1
-  font-size: 6em
+  font-size: 4em
+  font-family: 'Snowburst One', cursive
+  font-weight: bolder
 
 h2
   font-weight: bolder
 
 h5
   font-size: 2em
-  color: $bl-green
+  color: $logoColor
   margin-top: 50px
 
 h6
   font-size: 1.3em
-  color: $bl-green
+  color: $logoColor
   margin-top: 50px
 
 
@@ -40,24 +37,24 @@ p, a
   font-size: 1.3em
 
 #bl-logo-svg
-  fill: $bl-green
+  fill: $logoColor
 #bl-leaf-svg
-  fill: $bl-green
+  fill: $logoColor
 
 section
   margin-top: 4vh
   margin-bottom: 4vh
 a
-  color: $bl-green
+  color: $logoColor
   margin: 5px
   &:hover
-    color: $bl-hover-color
+    color: $hoverColor
     text-decoration: none
 
 a
   h2, h4
     &:hover
-      color: $bl-hover-color
+      color: $hoverColor
       text-decoration: none
 
 ul
@@ -76,7 +73,7 @@ ul
   flex-direction: column
   justify-content: center
   margin: 25px 0px
-  border-radius: $bl-border-radius
+  border-radius: $borderRadius
   h2, h1
     align-self: center
     color: white
@@ -87,7 +84,7 @@ ul
   min-height: 50vh
   margin: 25px 0px
   padding: 5vw
-  border-radius: $bl-border-radius
+  border-radius: $borderRadius
 
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12

@@ -6,17 +6,16 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #FFEEEE;
-  background: -webkit-linear-gradient(to bottom, #DDEFBB, #FFEEEE);
-  background: linear-gradient(to bottom, #DDEFBB, #FFEEEE);
-  font-family: "Amatic SC", cursive; }
+  font-family: "Dosis", sans-serif; }
 
 h1, h2, h3, h4 {
   text-align: center;
   color: #444444; }
 
 h1 {
-  font-size: 6em; }
+  font-size: 4em;
+  font-family: "Snowburst One", cursive;
+  font-weight: bolder; }
 
 h2 {
   font-weight: bolder; }
@@ -255,65 +254,54 @@ footer {
   #copyright img {
     max-width: 1.3em; }
 
-#receptenSection .receptenInfo, #weetjesSection .receptenInfo, #blogsSection .receptenInfo {
+#receptenSection .receptenInfo {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%; }
-  #receptenSection .receptenInfo #receptSuffice, #weetjesSection .receptenInfo #receptSuffice, #blogsSection .receptenInfo #receptSuffice {
+  #receptenSection .receptenInfo #receptSuffice {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; }
-    #receptenSection .receptenInfo #receptSuffice .suffice, #weetjesSection .receptenInfo #receptSuffice .suffice, #blogsSection .receptenInfo #receptSuffice .suffice {
+    #receptenSection .receptenInfo #receptSuffice .suffice {
       margin-right: 20px; }
-  #receptenSection .receptenInfo #searchIcon, #weetjesSection .receptenInfo #searchIcon, #blogsSection .receptenInfo #searchIcon {
+  #receptenSection .receptenInfo #searchIcon {
     align-self: flex-end;
     margin-left: auto;
     margin-bottom: auto; }
-    #receptenSection .receptenInfo #searchIcon:hover, #weetjesSection .receptenInfo #searchIcon:hover, #blogsSection .receptenInfo #searchIcon:hover {
+    #receptenSection .receptenInfo #searchIcon:hover {
       cursor: pointer; }
-#receptenSection .contentNav, #weetjesSection .contentNav, #blogsSection .contentNav {
+#receptenSection .contentNav {
   display: flex;
   flex-direction: column;
   overflow: hidden; }
-#receptenSection .height0, #weetjesSection .height0, #blogsSection .height0 {
+#receptenSection .height0 {
   height: 0; }
-#receptenSection .heightAuto, #weetjesSection .heightAuto, #blogsSection .heightAuto {
+#receptenSection .heightAuto {
   height: auto; }
-#receptenSection .receptCard, #weetjesSection .receptCard, #blogsSection .receptCard {
+#receptenSection .receptCard {
   background-position: center;
   background-size: cover;
   padding: 10px;
   border-radius: 20px; }
-  #receptenSection .receptCard h2, #weetjesSection .receptCard h2, #blogsSection .receptCard h2 {
-    background-color: rgba(0, 0, 0, 0.5);
+  #receptenSection .receptCard h2 {
     padding: 10px;
     border-radius: 10px;
     word-wrap: break-word;
     margin: 10px; }
-    #receptenSection .receptCard h2 a, #weetjesSection .receptCard h2 a, #blogsSection .receptCard h2 a {
-      color: white; }
-      #receptenSection .receptCard h2 a:hover, #weetjesSection .receptCard h2 a:hover, #blogsSection .receptCard h2 a:hover {
+    #receptenSection .receptCard h2 a {
+      color: darkorchid; }
+      #receptenSection .receptCard h2 a:hover {
         color: orchid; }
-  #receptenSection .receptCard .receptInfoCard, #weetjesSection .receptCard .receptInfoCard, #blogsSection .receptCard .receptInfoCard {
+  #receptenSection .receptCard .receptInfoCard {
     margin: 0 10px; }
-    #receptenSection .receptCard .receptInfoCard .receptInfo, #weetjesSection .receptCard .receptInfoCard .receptInfo, #blogsSection .receptCard .receptInfoCard .receptInfo {
-      color: white;
-      text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black;
+    #receptenSection .receptCard .receptInfoCard .receptInfo {
       padding: 10px; }
-    #receptenSection .receptCard .receptInfoCard .receptIntro, #weetjesSection .receptCard .receptInfoCard .receptIntro, #blogsSection .receptCard .receptInfoCard .receptIntro {
-      padding: 10px;
-      border-radius: 10px;
-      margin-bottom: 10px;
-      opacity: 0; }
-    #receptenSection .receptCard .receptInfoCard:hover, #weetjesSection .receptCard .receptInfoCard:hover, #blogsSection .receptCard .receptInfoCard:hover {
-      background-color: rgba(255, 255, 255, 0.9);
-      border-radius: 10px; }
-  #receptenSection .receptCard .receptInfoCard:hover .receptIntro, #weetjesSection .receptCard .receptInfoCard:hover .receptIntro, #blogsSection .receptCard .receptInfoCard:hover .receptIntro {
-    opacity: 1; }
-  #receptenSection .receptCard .receptInfoCard:hover .receptInfo, #weetjesSection .receptCard .receptInfoCard:hover .receptInfo, #blogsSection .receptCard .receptInfoCard:hover .receptInfo {
-    color: #444444;
-    text-shadow: none; }
+      #receptenSection .receptCard .receptInfoCard .receptInfo p {
+        text-align: center; }
+  #receptenSection .receptCard .cuttingBoard img {
+    width: 100%;
+    height: auto; }
 
 #receptSection .contentTitleInfo {
   text-shadow: 0px 4px 3px black;

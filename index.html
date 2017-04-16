@@ -49,7 +49,7 @@ title: recepten
 		<div class="row">
 			{% for recept in site.recepten %}
 				<div  class="col-lg-3 col-sm-6">
-					<div style="background-image: url({{site.baseurl}}/img/recepten/{{recept.imageName}})" class="gridSpace receptCard">
+					<div class="gridSpace receptCard">
 						<h2><a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a></h2>
 						<div onclick="" class="receptInfoCard">
 							<div class="receptInfo">
@@ -78,11 +78,9 @@ title: recepten
 					        {% endif %}
 								</p>
 							</div>
-							<div class="receptIntro">
-								<strong><p>{{ recept.intro }}</p></strong>
-								{{ recept.content | truncate: 90 }}
-								<a href="{{site.baseurl}}{{recept.url}}">lees meer</a>
-							</div>
+						</div>
+						<div class="cuttingBoard">
+							<img src="{{site.baseurl}}/img/recepten/{{recept.imageName}}" alt="">
 						</div>
 					</div>
 				</div>
@@ -90,8 +88,7 @@ title: recepten
 		</div>
 		<div class="info">
 			<h2>Meer over Mizzi</h2>
-			<p>Bacon ipsum dolor amet meatball short ribs strip steak ribeye brisket pork loin. Sausage picanha rump fatback tri-tip beef ribs chuck capicola salami frankfurter meatloaf short ribs. Bacon burgdoggen picanha, tenderloin ham hock boudin doner. Andouille short loin ribeye beef ribs frankfurter strip steak ham hock brisket meatloaf sausage pork spare ribs shank venison. Spare ribs kielbasa pork chop, meatloaf turkey frankfurter venison beef ribs sirloin ham hock turducken capicola fatback chicken prosciutto. Andouille flank burgdoggen shankle capicola tenderloin swine ham ribeye pastrami meatloaf.</p>
-			<p>Pastrami ham hock venison jerky ball tip, burgdoggen picanha. Pork chop kevin strip steak porchetta chuck. Rump porchetta hamburger meatball turkey, sirloin capicola fatback pig. Sausage short ribs strip steak beef short loin alcatra biltong cow. Swine porchetta beef ribs short loin short ribs, capicola filet mignon strip steak pastrami pork loin corned beef brisket ham hock alcatra. Frankfurter shank meatloaf, kevin pig beef ball tip landjaeger cow sausage. Jerky pancetta pig, chicken ham short ribs boudin meatloaf.</p>
+			<p>{% include pages/home/mizziInfo.md  %}</p>
 
 		</div>
 	</div>

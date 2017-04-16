@@ -1,5 +1,5 @@
 //titleElement gets sass from _sass/general/page.sass
-#receptenSection, #weetjesSection, #blogsSection
+#receptenSection
   .receptenInfo
     display: flex
     flex-direction: row
@@ -25,37 +25,28 @@
     height: 0
   .heightAuto
     height: auto
+
   .receptCard
     background-position: center
     background-size: cover
-    padding: $bl-card-border-padding
-    border-radius: $bl-border-radius
+    padding: $cardBorderPadding
+    border-radius: $borderRadius
     h2
-      background-color: rgba( 0,0,0,0.5)
       padding: 10px
-      border-radius: $bl-border-radius-smal
+      border-radius: $borderRadiusSmal
       word-wrap: break-word
       margin: 10px
       a
-        color: white
+        color: $titleTextColor
         &:hover
-          color: $bl-green
+          color: $logoColor
     .receptInfoCard
       margin: 0 10px
       .receptInfo
-        color: white
-        text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black
         padding: 10px
-      .receptIntro
-        padding: 10px
-        border-radius: $bl-border-radius-smal
-        margin-bottom: 10px
-        opacity: 0
-      &:hover
-        background-color: rgba( 255,255,255,0.9)
-        border-radius: $bl-border-radius-smal
-    .receptInfoCard:hover .receptIntro
-      opacity: 1
-    .receptInfoCard:hover .receptInfo
-      color: $bl-text-color
-      text-shadow: none
+        p
+          text-align: center
+    .cuttingBoard
+      img
+        width: 100%
+        height: auto
