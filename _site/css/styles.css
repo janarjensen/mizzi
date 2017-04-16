@@ -8,80 +8,55 @@ body {
   padding: 0;
   font-family: "Dosis", sans-serif; }
 
-h1, h2, h3, h4 {
-  text-align: center;
-  color: #444444; }
-
 h1 {
-  font-size: 4em;
   font-family: "Snowburst One", cursive;
-  font-weight: bolder; }
+  font-size: 4em;
+  font-weight: bolder;
+  color: #fefec8; }
+
+h2, h3 {
+  text-align: center;
+  color: #f17a04; }
+
+h4, h5, h6 {
+  color: #f17a04; }
+
+p, a {
+  color: #2c3925; }
 
 h2 {
-  font-weight: bolder; }
+  font-size: 2em;
+  font-weight: bold; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-top: 50px; }
 
 h5 {
-  font-size: 2em;
-  color: orchid;
+  font-size: 1.3em;
   margin-top: 50px; }
 
 h6 {
-  font-size: 1.3em;
-  color: orchid;
-  margin-top: 50px; }
+  font-size: 1.3em; }
 
 p, a {
   font-size: 1.3em; }
-
-#bl-logo-svg {
-  fill: orchid; }
-
-#bl-leaf-svg {
-  fill: orchid; }
 
 section {
   margin-top: 4vh;
   margin-bottom: 4vh; }
 
-a {
-  color: orchid;
-  margin: 5px; }
-  a:hover {
-    color: #8A2BE2;
-    text-decoration: none; }
-
-a h2:hover, a h4:hover {
-  color: #8A2BE2;
-  text-decoration: none; }
-
 ul {
-  list-style-image: url("www.mizzi.nl/favicon.ico");
+  list-style-image: url("../favicon.ico");
   font-size: 1.3em;
   line-height: 20px; }
 
 .gridSpace {
   margin: 10px; }
-
-.titleElement {
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 25px 0px;
-  border-radius: 20px; }
-  .titleElement h2, .titleElement h1 {
-    align-self: center;
-    color: white;
-    text-shadow: 2px 2px 5px black, 2px -2px 5px black, -2px 2px 5px black, 0px 0px 15px black; }
-
-.info {
-  background: #DDEFBB;
-  min-height: 50vh;
-  margin: 25px 0px;
-  padding: 5vw;
-  border-radius: 20px; }
 
 .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12 {
   padding: 0px; }
@@ -107,7 +82,7 @@ ul {
     transform: scale(1.3); }
   .statNavContainer #statNav {
     background-color: white;
-    border: 2px solid orchid;
+    border: 2px solid green;
     border-radius: 15px;
     min-height: 26px;
     line-height: 30px;
@@ -129,7 +104,7 @@ ul {
 
 footer {
   margin-top: 8vh;
-  border-top: 1px dotted orchid;
+  border-top: 1px dotted #f17a04;
   padding-top: 7vh; }
   footer #footerNav {
     margin-bottom: 8vh; }
@@ -145,17 +120,17 @@ footer {
         font-size: 2.3em;
         color: hotpink; }
         footer #footerNav #nav1 a:nth-child(4):hover {
-          color: #8A2BE2; }
+          color: #ffb63a; }
       footer #footerNav #nav1 a:nth-child(5) {
         font-size: 1.1em;
-        border: 2px dotted #8A2BE2;
+        border: 2px dotted #ffb63a;
         padding: 0.2em;
         border-radius: 1.2em; }
       footer #footerNav #nav1 a:nth-child(6) {
         font-size: 2.5em;
         color: chocolate; }
         footer #footerNav #nav1 a:nth-child(6):hover {
-          color: #8A2BE2; }
+          color: #ffb63a; }
     footer #footerNav #nav2 {
       display: inline; }
       footer #footerNav #nav2 a:nth-child(1) {
@@ -170,7 +145,7 @@ footer {
         font-size: 3em;
         color: gold; }
         footer #footerNav #nav2 a:nth-child(5):hover {
-          color: #8A2BE2; }
+          color: #ffb63a; }
       footer #footerNav #nav2 a:nth-child(6) {
         font-size: 1.3em; }
       footer #footerNav #nav2 a:nth-child(7) {
@@ -179,74 +154,11 @@ footer {
         font-size: 2.8em; }
       footer #footerNav #nav2 a:nth-child(9) {
         font-size: 1.3em; }
-  footer #socialMedia {
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: #3494E6;
-    background: -webkit-linear-gradient(to left, #8A2BE2, orchid);
-    background: linear-gradient(to left, #8A2BE2, orchid);
-    min-height: 30vh;
-    border: 10px solid white;
-    border-radius: 20px;
-    color: white; }
-    footer #socialMedia h3 {
-      color: white; }
-      footer #socialMedia h3 .lobster {
-        font-size: 2em; }
-    footer #socialMedia .socialMediaContainer {
-      display: inline-flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      width: 100%; }
-      footer #socialMedia .socialMediaContainer i {
-        color: white;
-        margin: 3%;
-        font-size: 4em; }
-        footer #socialMedia .socialMediaContainer i:hover {
-          text-shadow: 2px 2px 3px black; }
-  footer .card {
-    height: 30vh;
-    border-radius: 20px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin: 0px;
-    padding: 0px;
-    background-image: url("../img/products/bloei-en-leef-kookboek.jpg"); }
-    footer .card .fadeCard {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(255, 255, 255, 0); }
-      footer .card .fadeCard:hover {
-        cursor: pointer;
-        background-color: rgba(255, 255, 255, 0.8);
-        transition: 200ms; }
-        footer .card .fadeCard:hover .cardInfo {
-          opacity: 1;
-          transition: 300ms; }
-      footer .card .fadeCard .cardInfo {
-        justify-content: center;
-        margin: auto 20px 0 20px;
-        opacity: 0; }
-      footer .card .fadeCard .cardTitle {
-        background-color: rgba(255, 0, 0, 0.5);
-        padding: 2px;
-        border-radius: 10px;
-        margin: auto auto;
-        margin-bottom: 15px;
-        justify-content: flex-end;
-        width: 50%; }
-      footer .card .fadeCard h2 {
-        color: white; }
 
 #copyright {
   margin-top: 8vh;
   margin-bottom: 0;
-  background-color: #DCDCDC;
+  background-color: #fefec8;
   padding-top: 3px; }
   #copyright p {
     display: inline;
@@ -254,6 +166,19 @@ footer {
   #copyright img {
     max-width: 1.3em; }
 
+#receptenSection .titleElement {
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  margin: 25px 0px; }
+  #receptenSection .titleElement h2, #receptenSection .titleElement h1 {
+    align-self: center;
+    color: #fefec8;
+    text-shadow: 2px 2px 5px #f17a04, 2px -2px 5px #f17a04, -2px 2px 5px #f17a04, 0px 0px 15px #f17a04; }
 #receptenSection .receptenInfo {
   display: flex;
   flex-direction: row;
@@ -282,7 +207,7 @@ footer {
 #receptenSection .receptCard {
   display: flex;
   flex-direction: column;
-  box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 0px 10px #ffb63a;
   background-position: center;
   background-size: cover;
   padding: 10px; }
@@ -290,9 +215,9 @@ footer {
     word-wrap: break-word;
     margin: 10px; }
     #receptenSection .receptCard h2 a {
-      color: darkorchid; }
+      color: #f17a04; }
       #receptenSection .receptCard h2 a:hover {
-        color: orchid; }
+        color: #ffb63a; }
   #receptenSection .receptCard .receptInfoCard {
     margin: 0 10px; }
     #receptenSection .receptCard .receptInfoCard .receptInfo {
@@ -305,6 +230,11 @@ footer {
     #receptenSection .receptCard .cuttingBoard img {
       width: 100%;
       height: auto; }
+#receptenSection .info {
+  background: #fefec8;
+  min-height: 50vh;
+  margin: 25px 0px;
+  padding: 5vw; }
 
 #receptSection .contentTitleInfo {
   text-shadow: 0px 4px 3px black;
@@ -318,7 +248,7 @@ footer {
     color: white;
     align-self: baseline; }
     #receptSection .contentTitleInfo #backToPrevious:hover {
-      color: #8A2BE2; }
+      color: #ffb63a; }
   #receptSection .contentTitleInfo #date {
     color: white;
     align-self: baseline; }
@@ -351,7 +281,7 @@ footer {
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: orchid;
+  background: green;
   border-radius: 10px; }
 #receptSection .contentContent input[type=range]::-webkit-slider-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -359,18 +289,18 @@ footer {
   height: 26px;
   width: 26px;
   border-radius: 15px;
-  background: #8A2BE2;
+  background: #ffb63a;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -7.3px; }
 #receptSection .contentContent input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #444444; }
+  background: #2c3925; }
 #receptSection .contentContent input[type=range]::-moz-range-track {
   width: 100%;
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: orchid;
+  background: green;
   border-radius: 10px; }
 #receptSection .contentContent input[type=range]::-moz-range-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -378,7 +308,7 @@ footer {
   height: 26px;
   width: 26px;
   border-radius: 15px;
-  background: #8A2BE2;
+  background: #ffb63a;
   cursor: pointer; }
 #receptSection .contentContent input[type=range]::-ms-track {
   width: 100%;
@@ -387,20 +317,20 @@ footer {
 #receptSection .contentContent input[type=range]::-ms-fill-lower {
   border-radius: 20px; }
 #receptSection .contentContent input[type=range]::-ms-fill-upper {
-  background: orchid;
+  background: green;
   border-radius: 20px; }
 #receptSection .contentContent input[type=range]::-ms-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
   height: 26px;
   width: 26px;
   border-radius: 15px;
-  background: #8A2BE2;
+  background: #ffb63a;
   cursor: pointer;
   height: 11.4px; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-lower {
-  background: orchid; }
+  background: green; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-upper {
-  background: #444444; }
+  background: #2c3925; }
 
 .generalPageSection .titlePicture {
   background-position: center center;
@@ -413,8 +343,8 @@ footer {
 .generalPageSection .grayLine {
   height: 3vh;
   background: #3494E6;
-  background: -webkit-linear-gradient(to left, white, orchid, #8A2BE2, orchid, white);
-  background: linear-gradient(to left, white, orchid, #8A2BE2, orchid, white);
+  background: -webkit-linear-gradient(to left, white, green, #ffb63a, green, white);
+  background: linear-gradient(to left, white, green, #ffb63a, green, white);
   margin-top: 35vh;
   width: 95vw;
   margin-left: auto;
