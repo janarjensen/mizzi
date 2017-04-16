@@ -27,19 +27,20 @@
     height: auto
 
   .receptCard
+    display: flex
+    flex-direction: column
+    box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.5)
     background-position: center
     background-size: cover
     padding: $cardBorderPadding
-    border-radius: $borderRadius
     h2
-      padding: 10px
-      border-radius: $borderRadiusSmal
       word-wrap: break-word
       margin: 10px
       a
         color: $titleTextColor
         &:hover
           color: $logoColor
+
     .receptInfoCard
       margin: 0 10px
       .receptInfo
@@ -47,6 +48,8 @@
         p
           text-align: center
     .cuttingBoard
+      align-self: flex-end
+      margin-top: auto
       img
         width: 100%
         height: auto
