@@ -1,6 +1,14 @@
-//titleElement gets sass from _sass/general/page.sass
-
 #receptSection
+  .pageTitleElement
+    background-position: center
+    background-size: cover
+    height: 50vh
+    display: flex
+    flex-direction: column
+    justify-content: center
+    text-align: center
+    margin: 25px 0px
+
   .contentTitleInfo
     text-shadow: 0px 4px 3px black
     margin-top: -65px
@@ -11,24 +19,32 @@
     padding: 0 20px 0 14px
 
     #backToPrevious
-      color: white
+      color: $backgroundColor
       align-self: baseline
       &:hover
         color: $hoverColor
     #date
-      color: white
+      color: $backgroundColor
       align-self: baseline
 
   .contentContent
     label
-      // margin-bottom: 35px
       width: 100%
+      h5
+        text-align: center
       .inputBar
         display: flex
         flex-direction: row
         margin: 20px
         input
           margin: 0 20px
+
+    .cookInfo
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      h5
+        margin: 30px 20px 30px 0
 
     .completed
       color: gray
@@ -55,7 +71,7 @@
       height: 11.4px
       cursor: pointer
       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0)
-      background: $logoColor
+      background: $hoverColor
       border-radius: 10px
     input[type=range]::-webkit-slider-thumb
       box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b
@@ -63,7 +79,7 @@
       height: 26px
       width: 26px
       border-radius: 15px
-      background: $hoverColor
+      background: $titleTextColor
       cursor: pointer
       -webkit-appearance: none
       margin-top: -7.3px
@@ -74,7 +90,7 @@
       height: 11.4px
       cursor: pointer
       box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0)
-      background: $logoColor
+      background: $hoverColor
       border-radius: 10px
     input[type=range]::-moz-range-thumb
       box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b
@@ -82,7 +98,7 @@
       height: 26px
       width: 26px
       border-radius: 15px
-      background: $hoverColor
+      background: $titleTextColor
       cursor: pointer
     input[type=range]::-ms-track
       width: 100%
@@ -91,17 +107,17 @@
     input[type=range]::-ms-fill-lower
       border-radius: 20px
     input[type=range]::-ms-fill-upper
-      background: $logoColor
+      background: $hoverColor
       border-radius: 20px
     input[type=range]::-ms-thumb
       box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b
       height: 26px
       width: 26px
       border-radius: 15px
-      background: $hoverColor
+      background: $titleTextColor
       cursor: pointer
       height: 11.4px
     input[type=range]:focus::-ms-fill-lower
-      background: $logoColor
+      background: $hoverColor
     input[type=range]:focus::-ms-fill-upper
       background: $textColor

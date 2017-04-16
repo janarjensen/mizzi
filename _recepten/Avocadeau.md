@@ -1,7 +1,8 @@
 ---
 layout: recept
 title: Avocadeau in één minuutje
-imageName: avocadeau.png
+imageName: avocadeau.jpg
+cuttingBoard: avocadeau.png
 dateAdded: 15 April 2017
 intro: HABA HABA lekker en super snel
 prepTime: 1

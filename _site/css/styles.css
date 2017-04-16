@@ -12,7 +12,8 @@ h1 {
   font-family: "Snowburst One", cursive;
   font-size: 4em;
   font-weight: bolder;
-  color: #fefec8; }
+  color: #fefec8;
+  text-shadow: 2px 2px 5px #f17a04, 2px -2px 5px #f17a04, -2px 2px 5px #f17a04, 0px 0px 15px #f17a04; }
 
 h2, h3, h4 {
   text-align: center;
@@ -31,11 +32,12 @@ h2 {
 h3 {
   font-size: 2em; }
 
-h4, h5, h6, p, a, ul {
+h4, h5, h6, p, a, ul, li {
   font-size: 1.3em; }
 
 h5 {
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-weight: bolder; }
 
 a:hover {
   text-decoration: none;
@@ -170,10 +172,8 @@ footer {
   justify-content: flex-end;
   text-align: right;
   margin: 25px 0px; }
-  #receptenSection .titleElement h2, #receptenSection .titleElement h1 {
-    align-self: center;
-    color: #fefec8;
-    text-shadow: 2px 2px 5px #f17a04, 2px -2px 5px #f17a04, -2px 2px 5px #f17a04, 0px 0px 15px #f17a04; }
+  #receptenSection .titleElement h1 {
+    margin: 2vh 3vw; }
 #receptenSection .receptenInfo {
   display: flex;
   flex-direction: row;
@@ -236,6 +236,15 @@ footer {
   margin: 25px 0px;
   padding: 5vw; }
 
+#receptSection .pageTitleElement {
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 25px 0px; }
 #receptSection .contentTitleInfo {
   text-shadow: 0px 4px 3px black;
   margin-top: -65px;
@@ -245,21 +254,29 @@ footer {
   width: 100%;
   padding: 0 20px 0 14px; }
   #receptSection .contentTitleInfo #backToPrevious {
-    color: white;
+    color: #fefec8;
     align-self: baseline; }
     #receptSection .contentTitleInfo #backToPrevious:hover {
       color: #ffb63a; }
   #receptSection .contentTitleInfo #date {
-    color: white;
+    color: #fefec8;
     align-self: baseline; }
 #receptSection .contentContent label {
   width: 100%; }
+  #receptSection .contentContent label h5 {
+    text-align: center; }
   #receptSection .contentContent label .inputBar {
     display: flex;
     flex-direction: row;
     margin: 20px; }
     #receptSection .contentContent label .inputBar input {
       margin: 0 20px; }
+#receptSection .contentContent .cookInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  #receptSection .contentContent .cookInfo h5 {
+    margin: 30px 20px 30px 0; }
 #receptSection .contentContent .completed {
   color: gray;
   text-decoration: line-through; }
@@ -281,7 +298,7 @@ footer {
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: green;
+  background: #ffb63a;
   border-radius: 10px; }
 #receptSection .contentContent input[type=range]::-webkit-slider-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -289,7 +306,7 @@ footer {
   height: 26px;
   width: 26px;
   border-radius: 15px;
-  background: #ffb63a;
+  background: #f17a04;
   cursor: pointer;
   -webkit-appearance: none;
   margin-top: -7.3px; }
@@ -300,7 +317,7 @@ footer {
   height: 11.4px;
   cursor: pointer;
   box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);
-  background: green;
+  background: #ffb63a;
   border-radius: 10px; }
 #receptSection .contentContent input[type=range]::-moz-range-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
@@ -308,7 +325,7 @@ footer {
   height: 26px;
   width: 26px;
   border-radius: 15px;
-  background: #ffb63a;
+  background: #f17a04;
   cursor: pointer; }
 #receptSection .contentContent input[type=range]::-ms-track {
   width: 100%;
@@ -317,18 +334,18 @@ footer {
 #receptSection .contentContent input[type=range]::-ms-fill-lower {
   border-radius: 20px; }
 #receptSection .contentContent input[type=range]::-ms-fill-upper {
-  background: green;
+  background: #ffb63a;
   border-radius: 20px; }
 #receptSection .contentContent input[type=range]::-ms-thumb {
   box-shadow: 0.9px 0.9px 1px #000031, 0px 0px 0.9px #00004b;
   height: 26px;
   width: 26px;
   border-radius: 15px;
-  background: #ffb63a;
+  background: #f17a04;
   cursor: pointer;
   height: 11.4px; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-lower {
-  background: green; }
+  background: #ffb63a; }
 #receptSection .contentContent input[type=range]:focus::-ms-fill-upper {
   background: #2c3925; }
 

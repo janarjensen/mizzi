@@ -3,7 +3,7 @@ layout: default
 ---
 <section id="receptSection">
   <div class="container">
-    <div id="pagetitleElement"style="background-image: url({{site.baseurl}}/img/recepten/{{page.imageName}})" class="titleElement">
+    <div style="background-image: url({{site.baseurl}}/img/recepten/{{page.imageName}})" class="pageTitleElement">
       <h1>{{page.title}}</h1>
     </div>
     <div class="contentTitleInfo">
@@ -18,28 +18,33 @@ layout: default
           <span>12</span>
         </div>
       </label>
-      <h5><i class="fa fa-hourglass-start" aria-hidden="true"></i>  {{ page.time }}  min
-        {% if page.ontbijt %}
-        <i class="fa fa-coffee" aria-hidden="true"></i>
-        {% endif %}
-        {% if page.tussendoortje %}
-        <i class="fa fa-battery-quarter" aria-hidden="true"></i>
-        {% endif %}
-        {% if page.lunch %}
-        <i class="fa fa-circle-o" aria-hidden="true"></i>
-        {% endif %}
-        {% if page.diner %}
-        <i class="fa fa-cutlery" aria-hidden="true"></i>
-        {% endif %}
-        {% if page.sideDish %}
-        <i class="fa fa-plus" aria-hidden="true"></i>
-        {% endif %}
-        {% if page.toetje %}
-        <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-        {% endif %}
-        {% if page.leftOvers %}
-        <i class="fa fa-recycle" aria-hidden="true"></i>
-        {% endif %}</h5>
+      <div class="cookInfo">
+        <h5><i class="fa fa-hourglass-start" aria-hidden="true"></i>  {{ page.prepTime }}  min</h5>
+        <h5><i class="fa fa-hourglass-start" aria-hidden="true"></i>  {{ page.cookTime }}  min</h5>
+        <h5>
+          {% if page.ontbijt %}
+          <i class="fa fa-coffee" aria-hidden="true"></i>
+          {% endif %}
+          {% if page.tussendoortje %}
+          <i class="fa fa-battery-quarter" aria-hidden="true"></i>
+          {% endif %}
+          {% if page.lunch %}
+          <i class="fa fa-circle-o" aria-hidden="true"></i>
+          {% endif %}
+          {% if page.diner %}
+          <i class="fa fa-cutlery" aria-hidden="true"></i>
+          {% endif %}
+          {% if page.sideDish %}
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          {% endif %}
+          {% if page.toetje %}
+          <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+          {% endif %}
+          {% if page.leftOvers %}
+          <i class="fa fa-recycle" aria-hidden="true"></i>
+          {% endif %}</h5>
+      </div>
+        <br>
       <p><strong>{{ page.intro }}</strong></p>
       {{ content }}
     </div>

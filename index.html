@@ -84,16 +84,14 @@ title: recepten
 							</div>
 						</div>
 						<div class="cuttingBoard">
-							<img src="{{site.baseurl}}/img/recepten/{{recept.imageName}}" alt="">
+							<img src="{{site.baseurl}}/img/cuttingBoards/{{recept.cuttingBoard}}" alt="">
 						</div>
 					</div>
 				</div>
 			{% endfor %}
 		</div>
 		<div class="info">
-			<h2>Meer over Mizzi</h2>
-			<p>{% include pages/home/mizziInfo.md  %}</p>
-
+			{% include pages/home/mizziInfo.html  %}
 		</div>
 	</div>
 </section>
