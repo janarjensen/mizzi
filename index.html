@@ -9,13 +9,15 @@ title: recepten
 		</div>
 		<div class="receptenInfo">
 			<div id="receptSuffice">
-				<p class="suffice">ontbijt <i class="fa fa-bus" aria-hidden="true"></i></p>
-				<p class="suffice">tussendoortje <i class="fa fa-bell" aria-hidden="true"></i></p>
-				<p class="suffice">lunch <i class="fa fa-certificate" aria-hidden="true"></i></p>
+				<p class="suffice">prep-time <i class="fa fa-hourglass-start" aria-hidden="true"></i></p>
+				<p class="suffice">cook-time <i class="fa fa-hourglass-end" aria-hidden="true"></i></p>
+				<p class="suffice">ontbijt <i class="fa fa-coffee" aria-hidden="true"></i></p>
+				<p class="suffice">tussendoortje <i class="fa fa-battery-quarter" aria-hidden="true"></i></p>
+				<p class="suffice">lunch <i class="fa fa-circle-o" aria-hidden="true"></i></p>
 				<p class="suffice">diner <i class="fa fa-cutlery" aria-hidden="true"></i></p>
-				<p class="suffice">side-dish <i class="fa fa-check-square" aria-hidden="true"></i></p>
-				<p class="suffice">toetje <i class="fa fa-cloud-download" aria-hidden="true"></i></p>
-				<p class="suffice">left-overs <i class="fa fa-eraser" aria-hidden="true"></i></p>
+				<p class="suffice">side-dish <i class="fa fa-plus" aria-hidden="true"></i></p>
+				<p class="suffice">toetje <i class="fa fa-birthday-cake" aria-hidden="true"></i></p>
+				<p class="suffice">left-overs <i class="fa fa-recycle" aria-hidden="true"></i></p>
 			</div>
 			<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 		</div>
@@ -23,25 +25,25 @@ title: recepten
 			{% for recept in site.recepten %}
 				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
 					{% if recept.ontbijt %}
-	        <i class="fa fa-bus" aria-hidden="true"></i>
+	        <i class="fa fa-coffee" aria-hidden="true"></i>
 	        {% endif %}
 	        {% if recept.tussendoortje %}
-	        <i class="fa fa-bell" aria-hidden="true"></i>
+	        <i class="fa fa-battery-quarter" aria-hidden="true"></i>
 	        {% endif %}
 	        {% if recept.lunch %}
-	        <i class="fa fa-certificate" aria-hidden="true"></i>
+	        <i class="fa fa-circle-o" aria-hidden="true"></i>
 	        {% endif %}
 	        {% if recept.diner %}
 	        <i class="fa fa-cutlery" aria-hidden="true"></i>
 	        {% endif %}
 	        {% if recept.sideDish %}
-	        <i class="fa fa-check-square" aria-hidden="true"></i>
+	        <i class="fa fa-plus" aria-hidden="true"></i>
 	        {% endif %}
 	        {% if recept.toetje %}
-	        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+	        <i class="fa fa-birthday-cake" aria-hidden="true"></i>
 	        {% endif %}
 	        {% if recept.leftOvers %}
-	        <i class="fa fa-eraser" aria-hidden="true"></i>
+	        <i class="fa fa-recycle" aria-hidden="true"></i>
 	        {% endif %}
 				</a>
 			{% endfor %}
@@ -54,29 +56,31 @@ title: recepten
 						<div onclick="" class="receptInfoCard">
 							<div class="receptInfo">
 								<strong><p>{{ recept.intro }}</p></strong>
-								<p><i class="fa fa-clock-o" aria-hidden="true"></i>  {{ recept.time }}  min
+								<h4><i class="fa fa-hourglass-start" aria-hidden="true"></i>  {{ recept.prepTime }}  min
+									<i class="fa fa-hourglass-end" aria-hidden="true"></i>  {{ recept.cookTime }}  min
+									<br>
 									{% if recept.ontbijt %}
-					        <i class="fa fa-bus" aria-hidden="true"></i>
+					        <i class="fa fa-coffee" aria-hidden="true"></i>
 					        {% endif %}
 					        {% if recept.tussendoortje %}
-					        <i class="fa fa-bell" aria-hidden="true"></i>
+					        <i class="fa fa-battery-quarter" aria-hidden="true"></i>
 					        {% endif %}
 					        {% if recept.lunch %}
-					        <i class="fa fa-certificate" aria-hidden="true"></i>
+					        <i class="fa fa-circle-o" aria-hidden="true"></i>
 					        {% endif %}
 					        {% if recept.diner %}
 					        <i class="fa fa-cutlery" aria-hidden="true"></i>
 					        {% endif %}
 					        {% if recept.sideDish %}
-					        <i class="fa fa-check-square" aria-hidden="true"></i>
+					        <i class="fa fa-plus" aria-hidden="true"></i>
 					        {% endif %}
 					        {% if recept.toetje %}
-					        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+					        <i class="fa fa-birthday-cake" aria-hidden="true"></i>
 					        {% endif %}
 					        {% if recept.leftOvers %}
-					        <i class="fa fa-eraser" aria-hidden="true"></i>
+					        <i class="fa fa-recycle" aria-hidden="true"></i>
 					        {% endif %}
-								</p>
+								</h4>
 							</div>
 						</div>
 						<div class="cuttingBoard">

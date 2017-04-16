@@ -14,7 +14,7 @@ h1 {
   font-weight: bolder;
   color: #fefec8; }
 
-h2, h3 {
+h2, h3, h4 {
   text-align: center;
   color: #f17a04; }
 
@@ -31,20 +31,15 @@ h2 {
 h3 {
   font-size: 2em; }
 
-h4 {
-  font-size: 1.3em;
-  font-weight: bolder;
-  margin-top: 50px; }
+h4, h5, h6, p, a, ul {
+  font-size: 1.3em; }
 
 h5 {
-  font-size: 1.3em;
   margin-top: 50px; }
 
-h6 {
-  font-size: 1.3em; }
-
-p, a {
-  font-size: 1.3em; }
+a:hover {
+  text-decoration: none;
+  color: #ffb63a; }
 
 section {
   margin-top: 4vh;
@@ -187,7 +182,8 @@ footer {
   #receptenSection .receptenInfo #receptSuffice {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-around; }
     #receptenSection .receptenInfo #receptSuffice .suffice {
       margin-right: 20px; }
   #receptenSection .receptenInfo #searchIcon {
@@ -200,6 +196,8 @@ footer {
   display: flex;
   flex-direction: column;
   overflow: hidden; }
+  #receptenSection .contentNav a {
+    line-height: 2em; }
 #receptenSection .height0 {
   height: 0; }
 #receptenSection .heightAuto {
@@ -224,6 +222,8 @@ footer {
       padding: 10px; }
       #receptenSection .receptCard .receptInfoCard .receptInfo p {
         text-align: center; }
+      #receptenSection .receptCard .receptInfoCard .receptInfo h4 {
+        line-height: 2em; }
   #receptenSection .receptCard .cuttingBoard {
     align-self: flex-end;
     margin-top: auto; }
