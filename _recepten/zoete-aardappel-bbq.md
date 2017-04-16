@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: Zoete aardappel BBQ
-imageName: sweetBbqPatato.png
+imageName: sweetBbqPatato.jpg
 cuttingBoard: sweetBbqPatato.png
 dateAdded: 15 April 2017
 intro: Juicy Lucy Smokin’ Sweetness BOMB

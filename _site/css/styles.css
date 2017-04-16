@@ -156,7 +156,10 @@ footer {
   margin-top: 8vh;
   margin-bottom: 0;
   background-color: #fefec8;
-  padding-top: 3px; }
+  padding-top: 3px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
   #copyright p {
     display: inline;
     margin: 0 2%; }

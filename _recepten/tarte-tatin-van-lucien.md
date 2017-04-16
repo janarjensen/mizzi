@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: Tarte tatin van Lucien
-imageName: tarteTatin.png
+imageName: tarteTatin.jpg
 cuttingBoard: tarteTatin.png
 dateAdded: 15 April 2017
 intro: Welcome to the flip side of things. It Flipperdy Flaps your tongue!
