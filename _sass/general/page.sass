@@ -14,7 +14,9 @@ h1
   font-size: 4em
   font-weight: bolder
   color: $backgroundColor
-  text-shadow: 2px 2px 5px $titleTextColor, 2px -2px 5px $titleTextColor, -2px 2px 5px $titleTextColor, 0px 0px 15px $titleTextColor
+  -webkit-filter: drop-shadow(1px 1px 1px $titleTextColor) drop-shadow( 1px -1px 1px $titleTextColor) drop-shadow(-1px 1px 1px $titleTextColor) drop-shadow(0px 0px 10px $titleTextColor)
+  filter: drop-shadow(1px 1px 1px $titleTextColor) drop-shadow( 1px -1px 1px $titleTextColor) drop-shadow(-1px 1px 1px $titleTextColor) drop-shadow(0px 0px 10px $titleTextColor)
+  // text-shadow: 2px 2px 5px $titleTextColor, 2px -2px 5px $titleTextColor, -2px 2px 5px $titleTextColor, 0px 0px 15px $titleTextColor
 
 h2, h3, h4
   text-align: center

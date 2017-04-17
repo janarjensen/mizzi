@@ -1,17 +1,47 @@
-#receptenSection
+#homeSection
   .titleElement
     background-position: center
     background-size: cover
     height: 50vh
     display: flex
-    flex-direction: column
     justify-content: flex-end
-    text-align: right
-    margin: 25px 0px
+    padding: 3vh 3vw
+    .titleText
+      align-self: flex-end
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      // border: 1px solid red
     h1
-      margin: 2vh 3vw
+      margin: 0px
+      align-self: flex-end
+      // border: 1px solid red
+
+    svg
+      padding: 3px
+      margin-left: 10px
+      -webkit-filter: drop-shadow(1px 1px 1px $titleTextColor) drop-shadow( 1px -1px 1px $titleTextColor) drop-shadow(-1px 1px 1px $titleTextColor) drop-shadow(0px 0px 10px $titleTextColor)
+      filter: drop-shadow(1px 1px 1px $titleTextColor) drop-shadow( 1px -1px 1px $titleTextColor) drop-shadow(-1px 1px 1px $titleTextColor) drop-shadow(0px 0px 10px $titleTextColor)
+      fill: $backgroundColor
+      height: 5em
+      width: 13em
+      @keyframes heartbeat
+        0%
+          transform: scale(1)
+        20%
+          transform: scale(1.05)
+        40%
+          transform: scale(1)
+        60%
+          transform: scale(1.05)
+        80%
+          transform: scale(1)
+        100%
+          transform: scale(1)
+      animation: heartbeat 1.5s infinite
 
   .receptenInfo
+    margin-top: 10px
     display: flex
     flex-direction: row
     justify-content: space-between
