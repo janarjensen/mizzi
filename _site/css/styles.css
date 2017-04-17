@@ -151,9 +151,10 @@ footer {
     flex-wrap: wrap; }
   #homeSection .titleElement h1 {
     margin: 0px;
+    margin-left: 18px;
     align-self: flex-end; }
   #homeSection .titleElement svg {
-    padding: 3px;
+    padding: 4px;
     margin-left: 10px;
     -webkit-filter: drop-shadow(1px 1px 1px #f17a04) drop-shadow(1px -1px 1px #f17a04) drop-shadow(-1px 1px 1px #f17a04) drop-shadow(0px 0px 10px #f17a04);
     filter: drop-shadow(1px 1px 1px #f17a04) drop-shadow(1px -1px 1px #f17a04) drop-shadow(-1px 1px 1px #f17a04) drop-shadow(0px 0px 10px #f17a04);
@@ -183,8 +184,7 @@ footer {
   #homeSection .receptenInfo #receptSuffice {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    flex-wrap: wrap; }
     #homeSection .receptenInfo #receptSuffice .suffice {
       margin-right: 20px; }
   #homeSection .receptenInfo #searchIcon {
