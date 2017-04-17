@@ -160,7 +160,7 @@ footer {
     fill: #fefec8;
     height: 5em;
     width: 13em;
-    animation: heartbeat 1.5s infinite; }
+    animation: heartbeat 1.2s infinite; }
 @keyframes heartbeat {
   0% {
     transform: scale(1); }
