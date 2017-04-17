@@ -19,11 +19,11 @@ leftOvers: false
 
 Dit cadeautje is altijd goed. Het is namelijk HABA HABA lekker en super snel. In één minuut heb je een heerlijk ontbijtje, tussendoortje of side dish.
 
-##### Ingredienten voor <span class="personen">4</span> personen
-* Avocado
-* Olijfolie
-* Soyasaus
-* Citroensap
+##### Ingredienten voor <span class="personen">2</span> personen
+* <b>1</b> avocado
+* <b>2</b> el olijfolie
+* <b>2</b> tl soyasaus
+* Beetje citroensap
 
 ##### Zo maak je het:
 Snij de rijpe avocado doormidden.

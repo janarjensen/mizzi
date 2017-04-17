@@ -19,7 +19,7 @@ leftOvers: false
 
 **JE MOEDER!** Ja. Daar kan je nog eens wat van leren. Deze gemberkoek maakt mijn moeder namelijk al vele jaren, en haar GINGER kid (ik dus) heeft haar lekkere baksel opgepimpt tot in de 7de hemel. En, weet je wat, je kan deze koek eten als ontbijt, tussendoortje of gewoon de hele dag door als je daar zin in hebt want het is gezond. Daar houden we toch van tegenwoordig?
 
-##### Ingredienten voor <span class="personen">4</span> personen
+##### Ingredienten voor <span class="personen">2</span> personen
 * Groot stuk verse gember
 * Rozijnen
 * Havervlokken

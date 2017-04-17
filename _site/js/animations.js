@@ -9,7 +9,7 @@ $("#searchIcon").click(function(){
 });
 
 // ----------set nr of persons for recipe
-var nrOfPStart = 4
+var nrOfPStart = 2
 // change number of people in h2
 $("input[type='range']").on("input change", function(event){
   $(".personen").text($("input[type='range']").val());

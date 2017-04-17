@@ -18,11 +18,11 @@ leftOvers: false
 ---
 Stel je voor hè, je bent heerlijk aan het BBQ-en in de zon. Je hebt allerlei lekkers op het rooster geknald en in de kolen ligt een zoete aardappel een Juicy Lucy Smokin’ Sweetness BOMB te worden tussen de hete kolen. Die je kan eten bij alles wat je hebt gemaakt, je vlees, je vis, je gegrilde groenten, en knapperige broodjes. NOMNOMNOM.
 
-##### Ingredienten voor <span class="personen">4</span> personen
-* Zoete aardappel
-* Rode verse chilipeper
-* Limoensap
-* Olijfolie
+##### Ingredienten voor <span class="personen">2</span> personen
+* <b>1</b> grote zoete aardappel
+* <b>0.5</b> rode verse chilipeper
+* Beetje limoensap
+* <b>1</b> el olijfolie
 * Zout
 
 
