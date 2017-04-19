@@ -28,7 +28,7 @@ God mag weten wie Lucien is. Wat ik wel weet is dat deze tarte tatin je tong laa
 * Flinke klont roomboter
 * Zout naar smaak
 * Peper naar smaak
-* <b>4<b/> plakjes bladerdeeg
+* <b>4</b> plakjes bladerdeeg
 
 ##### Zo maak je het:
 Zet de oven aan op 180 graden.
