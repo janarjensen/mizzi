@@ -15,6 +15,9 @@ h1 {
   color: #fefec8;
   -webkit-filter: drop-shadow(2px 2px 2px #f17a04) drop-shadow(2px -2px 2px #f17a04) drop-shadow(-2px 2px 2px #f17a04) drop-shadow(0px 0px 12px #f17a04);
   filter: drop-shadow(2px 2px 2px #f17a04) drop-shadow(2px -2px 2px #f17a04) drop-shadow(-2px 2px 2px #f17a04) drop-shadow(0px 0px 12px #f17a04); }
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    h1 {
+      font-size: 2em; } }
 
 h2, h3, h4 {
   text-align: center;
