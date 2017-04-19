@@ -54,7 +54,7 @@ title: recepten
 		<div class="row">
 			{% for recept in site.recepten %}
 				<div  class="col-lg-3 col-sm-6">
-					<div class="gridSpace receptCard">
+					<div class="gridSpace receptCard" onclick="location.href='{{site.baseurl}}{{recept.url}}';" style="cursor: pointer;">
 						<h2><a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}</a></h2>
 						<div onclick="" class="receptInfoCard">
 							<div class="receptInfo">

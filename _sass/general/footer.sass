@@ -1,53 +1,60 @@
 footer
-  margin-top: 8vh
-  border-top: 1px dotted $titleTextColor
-  padding-top: 7vh
+  .scissorLine
+    border-top: 0.6vw dotted $titleTextColor
+    margin: 8vh 0 7vh 0
+    .fa-scissors
+      font-size: 8vw
+      color: $titleTextColor
+      margin-top: -4.5vw
+      margin-left: 2vw
   #footerNav
     margin-bottom: 8vh
     #nav1
-      display: inline
-      a:nth-child(1)
-        font-size: 1em
-      a:nth-child(2)
-        font-size: 4em
-      a:nth-child(3)
-        font-size: 1.5em
-      a:nth-child(4)
+      a
+        margin: 0 10px
+        display: inline
+      a:nth-child(10n+1)
+        font-size: 1.7em
+        color: $titleTextColor
+      a:nth-child(10n+2)
         font-size: 2.3em
-        color: hotpink
-        &:hover
-          color: $hoverColor
-      a:nth-child(5)
-        font-size: 1.1em
-        border: 2px dotted $hoverColor
-        padding: 0.2em
-        border-radius: 1.2em
-      a:nth-child(6)
-        font-size: 2.5em
-        color: chocolate
-        &:hover
-          color: $hoverColor
-
-    #nav2
-      display: inline
-      a:nth-child(1)
-        font-size: 1em
-      a:nth-child(2)
+      a:nth-child(10n+3)
         font-size: 1.5em
-      a:nth-child(3)
+        font-family: 'Snowburst One', cursive
+        color: $hoverColor
+      a:nth-child(10n+4)
+        font-size: 2.1em
+        color: $backgroundColor
+        text-shadow: 1px 1px 1px $titleTextColor, 1px -1px 1px $titleTextColor, -1px 1px 1px $titleTextColor, 0px 0px 5px $titleTextColor
+      a:nth-child(10n+5)
+        font-size: 1.3em
+        border: 2px dotted $hoverColor
+        padding: 0.2em 0.6em
+        border-radius: 1.2em
+      a:nth-child(10n+6)
+        font-size: 2.1em
+      a:nth-child(10n+7)
+        font-size: 1.7em
+        font-weight: 500
+        background-color: $backgroundColor
+        padding: 0 0.4em
+      a:nth-child(10n+8)
+        font-size: 1.5em
+        color: $hoverColor
+        text-decoration: underline
+      a:nth-child(10n+9)
         font-size: 2.2em
-      a:nth-child(4)
-        font-size: 1em
-      a:nth-child(5)
-        font-size: 3em
-        color: gold
+        font-family: 'Snowburst One', cursive
+      a:nth-child(10n+10)
+        font-size: 2.1em
+        font-style: italic
+
+      a
         &:hover
           color: $hoverColor
-      a:nth-child(6)
-        font-size: 1.3em
-      a:nth-child(7)
-        font-size: 1em
-      a:nth-child(8)
-        font-size: 2.8em
-      a:nth-child(9)
-        font-size: 1.3em
+      a:nth-child(10n+3)
+        &:hover
+          text-decoration: underline
+      a:nth-child(10n+8)
+        &:hover
+          text-decoration: none
