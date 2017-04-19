@@ -4,39 +4,37 @@
     background-size: cover
     height: 50vh
     display: flex
-    justify-content: flex-end
+    flex-direction: column
     padding: 3vh 3vw
+
     .titleText
+      height: 12vh
+      min-height: 100px
+      width: 100%
       align-self: flex-end
-      display: flex
-      flex-direction: row
-      flex-wrap: wrap
-    h1
-      margin: 0px
-      margin-left: 18px
-      align-self: flex-end
+      margin-top: auto
+
+
     svg
-      padding: 4px
-      margin-left: 10px
-      -webkit-filter: drop-shadow(1px 1px 1px $titleTextColor) drop-shadow( 1px -1px 1px $titleTextColor) drop-shadow(-1px 1px 1px $titleTextColor) drop-shadow(0px 0px 10px $titleTextColor)
-      filter: drop-shadow(1px 1px 1px $titleTextColor) drop-shadow( 1px -1px 1px $titleTextColor) drop-shadow(-1px 1px 1px $titleTextColor) drop-shadow(0px 0px 10px $titleTextColor)
+      padding: 10px
+      -webkit-filter: drop-shadow(2px 2px 2px $titleTextColor) drop-shadow( 2px -2px 2px $titleTextColor) drop-shadow(-2px 2px 2px $titleTextColor) drop-shadow(0px 0px 12px $titleTextColor)
+      filter: drop-shadow(2px 2px 2px $titleTextColor) drop-shadow( 2px -2px 2px $titleTextColor) drop-shadow(-2px 2px 2px $titleTextColor) drop-shadow(0px 0px 12px $titleTextColor)
       fill: $backgroundColor
-      height: 5em
-      width: 13em
-      @keyframes heartbeat
-        0%
-          transform: scale(1)
-        20%
-          transform: scale(1.05)
-        40%
-          transform: scale(1)
-        60%
-          transform: scale(1.05)
-        80%
-          transform: scale(1)
-        100%
-          transform: scale(1)
-      animation: heartbeat 1.2s infinite
+      #mizziSVG
+        @keyframes heartbeat
+          0%
+            transform: scale(1)
+          20%
+            transform: scale(1.05)
+          40%
+            transform: scale(1)
+          60%
+            transform: scale(1.05)
+          80%
+            transform: scale(1)
+          100%
+            transform: scale(1)
+        animation: heartbeat 1.2s infinite
 
   .receptenInfo
     margin-top: 10px

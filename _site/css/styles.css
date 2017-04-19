@@ -13,8 +13,8 @@ h1 {
   font-size: 4em;
   font-weight: bolder;
   color: #fefec8;
-  -webkit-filter: drop-shadow(1px 1px 1px #f17a04) drop-shadow(1px -1px 1px #f17a04) drop-shadow(-1px 1px 1px #f17a04) drop-shadow(0px 0px 10px #f17a04);
-  filter: drop-shadow(1px 1px 1px #f17a04) drop-shadow(1px -1px 1px #f17a04) drop-shadow(-1px 1px 1px #f17a04) drop-shadow(0px 0px 10px #f17a04); }
+  -webkit-filter: drop-shadow(2px 2px 2px #f17a04) drop-shadow(2px -2px 2px #f17a04) drop-shadow(-2px 2px 2px #f17a04) drop-shadow(0px 0px 12px #f17a04);
+  filter: drop-shadow(2px 2px 2px #f17a04) drop-shadow(2px -2px 2px #f17a04) drop-shadow(-2px 2px 2px #f17a04) drop-shadow(0px 0px 12px #f17a04); }
 
 h2, h3, h4 {
   text-align: center;
@@ -50,12 +50,10 @@ section {
 
 ul {
   list-style: none;
-  font-size: 1.3em;
   line-height: 50px;
   margin: 0px;
   padding: 0px; }
   ul li {
-    font-size: 1.3em;
     line-height: 50px;
     background: url("../favicon.ico") 0 50% no-repeat;
     padding: 0px 0px 0px 50px; }
@@ -74,6 +72,9 @@ b {
 
 .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
   padding: 0px; }
+
+#testH1 {
+  color: black; }
 
 footer {
   margin-top: 8vh;
@@ -147,26 +148,21 @@ footer {
   background-size: cover;
   height: 50vh;
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
   padding: 3vh 3vw; }
   #homeSection .titleElement .titleText {
+    height: 12vh;
+    min-height: 100px;
+    width: 100%;
     align-self: flex-end;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap; }
-  #homeSection .titleElement h1 {
-    margin: 0px;
-    margin-left: 18px;
-    align-self: flex-end; }
+    margin-top: auto; }
   #homeSection .titleElement svg {
-    padding: 4px;
-    margin-left: 10px;
-    -webkit-filter: drop-shadow(1px 1px 1px #f17a04) drop-shadow(1px -1px 1px #f17a04) drop-shadow(-1px 1px 1px #f17a04) drop-shadow(0px 0px 10px #f17a04);
-    filter: drop-shadow(1px 1px 1px #f17a04) drop-shadow(1px -1px 1px #f17a04) drop-shadow(-1px 1px 1px #f17a04) drop-shadow(0px 0px 10px #f17a04);
-    fill: #fefec8;
-    height: 5em;
-    width: 13em;
-    animation: heartbeat 1.2s infinite; }
+    padding: 10px;
+    -webkit-filter: drop-shadow(2px 2px 2px #f17a04) drop-shadow(2px -2px 2px #f17a04) drop-shadow(-2px 2px 2px #f17a04) drop-shadow(0px 0px 12px #f17a04);
+    filter: drop-shadow(2px 2px 2px #f17a04) drop-shadow(2px -2px 2px #f17a04) drop-shadow(-2px 2px 2px #f17a04) drop-shadow(0px 0px 12px #f17a04);
+    fill: #fefec8; }
+    #homeSection .titleElement svg #mizziSVG {
+      animation: heartbeat 1.2s infinite; }
 @keyframes heartbeat {
   0% {
     transform: scale(1); }
