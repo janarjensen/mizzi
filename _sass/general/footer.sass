@@ -1,21 +1,30 @@
 footer
   .scissorLine
-    border-top: 0.6vw dotted $titleTextColor
+    border-top: 0.6vmin dotted $titleTextColor
     margin: 8vh 0 7vh 0
     .fa-scissors
-      font-size: 8vw
+      font-size: 8vmin
       color: $titleTextColor
-      margin-top: -4.5vw
+      margin-top: -4.5vmin
       margin-left: 2vw
+      &:hover
+        cursor: pointer
+    .slideOutRight
+      margin-left: 150vw
+      transition: 5s
+
   #footerNav
     margin-bottom: 8vh
     #nav1
       a
         margin: 0 10px
         display: inline
-      a:nth-child(10n+1)
-        font-size: 1.7em
-        color: $titleTextColor
+      a:nth-child(1)
+        font-size: 1.3em
+        border: 2px dotted $hoverColor
+        padding: 0.2em 0.6em
+        border-radius: 1.2em
+        box-shadow: 1px 1px 1px $titleTextColor, 1px -1px 5px $titleTextColor, -1px 1px 5px $titleTextColor, 0px 0px 15px $titleTextColor
       a:nth-child(10n+2)
         font-size: 2.3em
       a:nth-child(10n+3)
@@ -27,10 +36,8 @@ footer
         color: $backgroundColor
         text-shadow: 1px 1px 1px $titleTextColor, 1px -1px 1px $titleTextColor, -1px 1px 1px $titleTextColor, 0px 0px 5px $titleTextColor
       a:nth-child(10n+5)
-        font-size: 1.3em
-        border: 2px dotted $hoverColor
-        padding: 0.2em 0.6em
-        border-radius: 1.2em
+        font-size: 1.7em
+        color: $titleTextColor
       a:nth-child(10n+6)
         font-size: 2.1em
       a:nth-child(10n+7)

@@ -83,21 +83,29 @@ nav a {
   color: black; }
 
 footer .scissorLine {
-  border-top: 0.6vw dotted #f17a04;
+  border-top: 0.6vmin dotted #f17a04;
   margin: 8vh 0 7vh 0; }
   footer .scissorLine .fa-scissors {
-    font-size: 8vw;
+    font-size: 8vmin;
     color: #f17a04;
-    margin-top: -4.5vw;
+    margin-top: -4.5vmin;
     margin-left: 2vw; }
+    footer .scissorLine .fa-scissors:hover {
+      cursor: pointer; }
+  footer .scissorLine .slideOutRight {
+    margin-left: 150vw;
+    transition: 5s; }
 footer #footerNav {
   margin-bottom: 8vh; }
   footer #footerNav #nav1 a {
     margin: 0 10px;
     display: inline; }
-  footer #footerNav #nav1 a:nth-child(10n+1) {
-    font-size: 1.7em;
-    color: #f17a04; }
+  footer #footerNav #nav1 a:nth-child(1) {
+    font-size: 1.3em;
+    border: 2px dotted #ffb63a;
+    padding: 0.2em 0.6em;
+    border-radius: 1.2em;
+    box-shadow: 1px 1px 1px #f17a04, 1px -1px 5px #f17a04, -1px 1px 5px #f17a04, 0px 0px 15px #f17a04; }
   footer #footerNav #nav1 a:nth-child(10n+2) {
     font-size: 2.3em; }
   footer #footerNav #nav1 a:nth-child(10n+3) {
@@ -109,10 +117,8 @@ footer #footerNav {
     color: #fefec8;
     text-shadow: 1px 1px 1px #f17a04, 1px -1px 1px #f17a04, -1px 1px 1px #f17a04, 0px 0px 5px #f17a04; }
   footer #footerNav #nav1 a:nth-child(10n+5) {
-    font-size: 1.3em;
-    border: 2px dotted #ffb63a;
-    padding: 0.2em 0.6em;
-    border-radius: 1.2em; }
+    font-size: 1.7em;
+    color: #f17a04; }
   footer #footerNav #nav1 a:nth-child(10n+6) {
     font-size: 2.1em; }
   footer #footerNav #nav1 a:nth-child(10n+7) {

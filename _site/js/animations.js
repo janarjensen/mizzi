@@ -1,14 +1,14 @@
-// ----------set equal heights to all recepes
+// set equal heights to all recepes
 $(function() {
     $('.receptCard').matchHeight();
 });
 
 // toggle class of searchIcon
-$("#searchIcon").click(function(){
+$(".receptenInfo").click(function(){
   $(".contentNav").toggleClass("height0 heightAuto");
 });
 
-// ----------set nr of persons for recipe
+// set nr of persons for recipe
 var nrOfPStart = 2
 // change number of people in h2
 $("input[type='range']").on("input change", function(event){
@@ -29,7 +29,12 @@ $("input[type='range']").on("change", function(event){
   nrOfPStart = nrOfP;
 });
 
-// ----------check off specific ingredient by clicking
+// check off specific ingredient by clicking
 $("ul").on("click", "li", function(){
   $(this).toggleClass("completed");
+});
+
+// Slide out right scissor
+$(".fa-scissors").on("click", function(){
+  $(this).addClass("slideOutRight");
 });
