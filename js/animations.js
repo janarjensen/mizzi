@@ -4,9 +4,16 @@ $(function() {
 });
 
 // toggle class of searchIcon
-$(".receptenInfo").click(function(){
+$("#searchIcon").click(function(){
   $(".contentNav").toggleClass("height0 heightAuto");
 });
+
+// // toggle class of searchIcon
+// $(".suffice").click(function(){
+//   $(this).toggleClass("fat");
+//   $(".contentNav").addClass("heightAuto");
+//
+// });
 
 // set nr of persons for recipe
 var nrOfPStart = 2
