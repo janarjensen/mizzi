@@ -44,4 +44,5 @@ $("ul").on("click", "li", function(){
 // Slide out right scissor
 $(".fa-scissors").on("click", function(){
   $(this).addClass("slideOutRight");
+  $(".egg").addClass("eggTada");
 });

@@ -93,8 +93,31 @@ footer .scissorLine {
     footer .scissorLine .fa-scissors:hover {
       cursor: pointer; }
   footer .scissorLine .slideOutRight {
-    margin-left: 150vw;
-    transition: 5s; }
+    margin-left: 100vw;
+    transition: 3s; }
+  footer .scissorLine .overflowHiddenDiv {
+    overflow: hidden; }
+    footer .scissorLine .overflowHiddenDiv .egg {
+      margin-top: -100%;
+      overflow: hidden;
+      border-bottom: 0.6vmin dotted #f17a04;
+      padding-bottom: 26px; }
+      footer .scissorLine .overflowHiddenDiv .egg .fotoBackground {
+        background-image: url("../img/backgrounds/hamburgerUitKyoto.jpg");
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        height: 50vh; }
+        footer .scissorLine .overflowHiddenDiv .egg .fotoBackground h2 {
+          margin-top: auto;
+          text-shadow: 1px 1px 1px #fefec8, 1px -1px 5px #fefec8, -1px 1px 5px #fefec8, 0px 0px 15px #fefec8;
+          margin-bottom: 50px; }
+    footer .scissorLine .overflowHiddenDiv .eggTada {
+      margin-top: 0%;
+      transition: 2s;
+      transition-delay: 2.6s; }
 footer #footerNav {
   margin-bottom: 8vh; }
   footer #footerNav #nav1 a {
