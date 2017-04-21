@@ -46,3 +46,7 @@ $(".fa-scissors").on("click", function(){
   $(this).addClass("slideOutRight");
   $(".egg").addClass("eggTada");
 });
+
+$(".searchBtn").click(function(){
+  alert("Druk niet op mij, druk op ENTER");
+});

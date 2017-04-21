@@ -1,3 +1,19 @@
+.tipue_search_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+  .tipue_search_right textarea, .tipue_search_right input {
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 2px solid #fefec8;
+    background-color: #fefec8;
+    margin: 10px 0;
+    color: #f17a04; }
+  .tipue_search_right .fa-search {
+    margin-left: -30px;
+    margin-top: -28px; }
+
 html {
   width: 100%; }
   html ::-webkit-scrollbar {
@@ -234,25 +250,10 @@ footer #footerNav {
     #homeSection .receptenInfo #searchIcon:hover {
       cursor: pointer; }
 #homeSection .contentNav {
+  @searchBarLayout;
   display: flex;
   flex-direction: column;
   overflow: hidden; }
-  #homeSection .contentNav .tipue_search_right {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 20px; }
-    #homeSection .contentNav .tipue_search_right textarea, #homeSection .contentNav .tipue_search_right input {
-      width: 100%;
-      padding-left: 20px;
-      box-sizing: border-box;
-      border: 2px solid #f17a04;
-      background-color: #ffb63a;
-      margin: 10px 0;
-      color: white; }
-    #homeSection .contentNav .tipue_search_right .fa-search {
-      margin-left: -30px;
-      margin-top: -28px; }
   #homeSection .contentNav a {
     line-height: 2em; }
 #homeSection .heightAuto {
@@ -406,64 +407,51 @@ footer #footerNav {
 #receptSection .contentContent input[type=range]:focus::-ms-fill-upper {
   background: #2c3925; }
 
-#searchSection .pageTitleElement {
-  background-position: top;
-  background-size: cover;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  margin: 25px 0px; }
-#searchSection .contentTitleInfo {
-  text-shadow: 0px 4px 3px black;
-  margin-top: -65px;
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
-  padding: 0 20px 0 14px; }
-  #searchSection .contentTitleInfo #backToPrevious {
-    color: #fefec8;
-    align-self: baseline; }
-    #searchSection .contentTitleInfo #backToPrevious:hover {
-      color: #ffb63a; }
-#searchSection .tipue_search_right {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end; }
-  #searchSection .tipue_search_right textarea, #searchSection .tipue_search_right input {
+#searchSection {
+  @searchBarLayout; }
+  #searchSection .pageTitleElement {
+    background-position: top;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 25px 0px; }
+  #searchSection .contentTitleInfo {
+    text-shadow: 0px 4px 3px black;
+    margin-top: -65px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    padding-left: 20px;
-    box-sizing: border-box;
-    border: 2px solid #f17a04;
-    background-color: #ffb63a;
-    margin: 10px 0;
-    color: white; }
-  #searchSection .tipue_search_right .fa-search {
-    margin-left: -30px;
-    margin-top: -28px; }
-#searchSection .tipue_search_content_title a {
-  font-size: 2em;
-  font-weight: bold;
-  color: #f17a04; }
-  #searchSection .tipue_search_content_title a:hover {
+    padding: 0 20px 0 14px; }
+    #searchSection .contentTitleInfo #backToPrevious {
+      color: #fefec8;
+      align-self: baseline; }
+      #searchSection .contentTitleInfo #backToPrevious:hover {
+        color: #ffb63a; }
+  #searchSection #tipue_search_results_count {
+    text-align: right; }
+  #searchSection .tipue_search_content_title a {
+    font-size: 2em;
+    font-weight: bold;
+    color: #f17a04; }
+    #searchSection .tipue_search_content_title a:hover {
+      color: #ffb63a; }
+  #searchSection .tipue_search_content_url a {
+    font-size: 1.3em;
     color: #ffb63a; }
-#searchSection #tipue_search_results_count {
-  text-align: right; }
-#searchSection .tipue_search_content_url a {
-  font-size: 1.3em;
-  color: #ffb63a; }
-  #searchSection .tipue_search_content_url a:hover {
-    text-decoration: underline; }
-#searchSection .tipue_search_content_text {
-  font-size: 1.3em;
-  color: #2c3925;
-  background-color: #fefec8;
-  margin-bottom: 4vmin; }
-#searchSection .tipue_search_content_bold {
-  font-weight: bold;
-  color: #f17a04; }
+    #searchSection .tipue_search_content_url a:hover {
+      text-decoration: underline; }
+  #searchSection .tipue_search_content_text {
+    font-size: 1.3em;
+    color: #2c3925;
+    background-color: #fefec8;
+    margin-bottom: 4vmin; }
+  #searchSection .tipue_search_content_bold {
+    font-weight: bold;
+    color: #f17a04; }
 
 #contactForm h2 {
   margin-top: 10vh; }
