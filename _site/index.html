@@ -16,9 +16,6 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Dosis:400,800|Snowburst+One" rel="stylesheet">
 
-	<!-- Pulling in tipSearch search bar -->
-	<!--  -->
-
   <!-- Pulling in AJ style (always after bootstrap) -->
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
 
@@ -102,10 +99,10 @@
 		</div>
 		<div class="contentNav height0">
 			<form action="/search">
-			  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingredienten" pattern=".{3,}" title="At least 3 characters" required><h5><i class="fa fa-search" aria-hidden="true"></i></h5></div>
-			  <div style="clear: both;"></div>
-			</form>
-			<div id="tipue_search_content"></div>
+  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingredienten" pattern=".{3,}" title="Minstens 3 karakters" required><h5><i onclick="" class="fa fa-search searchBtn" aria-hidden="true"></i></h5></div>
+  <div style="clear: both;"></div>
+</form>
+
 			
 				<a href="/recepten/Avocadeau/">Avocadeau in één minuutje
 					
@@ -337,12 +334,6 @@
 		</div>
 	</div>
 </section>
-
-<script>
-$(document).ready(function() {
-  $('#tipue_search_input').tipuesearch();
-});
-</script>
 
 
 <footer>

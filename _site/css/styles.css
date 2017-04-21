@@ -449,6 +449,8 @@ footer #footerNav {
   color: #f17a04; }
   #searchSection .tipue_search_content_title a:hover {
     color: #ffb63a; }
+#searchSection #tipue_search_results_count {
+  text-align: right; }
 #searchSection .tipue_search_content_url a {
   font-size: 1.3em;
   color: #ffb63a; }
@@ -461,8 +463,7 @@ footer #footerNav {
   margin-bottom: 4vmin; }
 #searchSection .tipue_search_content_bold {
   font-weight: bold;
-  color: #f17a04;
-  text-transform: uppercase; }
+  color: #f17a04; }
 
 #contactForm h2 {
   margin-top: 10vh; }
