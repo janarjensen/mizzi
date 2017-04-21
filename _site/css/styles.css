@@ -101,7 +101,7 @@ footer .scissorLine {
       margin-top: -100%;
       overflow: hidden;
       border-bottom: 0.6vmin dotted #f17a04;
-      padding-bottom: 26px; }
+      padding: 0 0 4vmin 0; }
       footer .scissorLine .overflowHiddenDiv .egg .fotoBackground {
         background-image: url("../img/backgrounds/hamburgerUitKyoto.jpg");
         background-position: center center;
@@ -109,11 +109,11 @@ footer .scissorLine {
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
-        height: 50vh; }
+        height: 80vmin;
+        padding: 20px; }
         footer .scissorLine .overflowHiddenDiv .egg .fotoBackground h2 {
           margin-top: auto;
-          text-shadow: 1px 1px 1px #fefec8, 1px -1px 5px #fefec8, -1px 1px 5px #fefec8, 0px 0px 15px #fefec8;
-          margin-bottom: 50px; }
+          text-shadow: 1px 1px 1px #fefec8, 1px -1px 5px #fefec8, -1px 1px 5px #fefec8, 0px 0px 15px #fefec8; }
     footer .scissorLine .overflowHiddenDiv .eggTada {
       margin-top: 0%;
       transition: 2s;
