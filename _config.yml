@@ -10,8 +10,7 @@ collections:
   recepten:
     output: true
 
-  weetjes:
-    output: true
-
-  blogs:
-    output: true
+tipue_search:
+  include:
+    pages: true
+    collections: [recepten]

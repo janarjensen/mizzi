@@ -25,6 +25,11 @@ title: recepten
 			<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 		</div>
 		<div class="contentNav height0">
+			<form action="{{ site.baseurl }}/search">
+			  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingredienten" pattern=".{3,}" title="At least 3 characters" required><h5><i class="fa fa-search" aria-hidden="true"></i></h5></div>
+			  <div style="clear: both;"></div>
+			</form>
+			<div id="tipue_search_content"></div>
 			{% for recept in site.recepten %}
 				<a href="{{site.baseurl}}{{recept.url}}">{{ recept.title }}
 					{% if recept.ontbijt %}
@@ -99,3 +104,9 @@ title: recepten
 		</div>
 	</div>
 </section>
+
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>

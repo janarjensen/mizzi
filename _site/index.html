@@ -13,7 +13,11 @@
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!-- Pulling in Google fonts -->
+
 	<link href="https://fonts.googleapis.com/css?family=Dosis:400,800|Snowburst+One" rel="stylesheet">
+
+	<!-- Pulling in tipSearch search bar -->
+	<!--  -->
 
   <!-- Pulling in AJ style (always after bootstrap) -->
   <link rel="stylesheet" type="text/css" href="/css/styles.css">
@@ -36,6 +40,9 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+
+	<!-- Pulling in jQuery (online repository) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
 </head>
 
@@ -94,6 +101,11 @@
 			<p id="searchIcon" onclick=""><i class="fa fa-search" aria-hidden="true"></i></p>
 		</div>
 		<div class="contentNav height0">
+			<form action="/search">
+			  <div class="tipue_search_right"><input type="text" name="q" id="tipue_search_input" placeholder="Zoek hier op ingredienten" pattern=".{3,}" title="At least 3 characters" required><h5><i class="fa fa-search" aria-hidden="true"></i></h5></div>
+			  <div style="clear: both;"></div>
+			</form>
+			<div id="tipue_search_content"></div>
 			
 				<a href="/recepten/Avocadeau/">Avocadeau in één minuutje
 					
@@ -326,6 +338,12 @@
 	</div>
 </section>
 
+<script>
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch();
+});
+</script>
+
 
 <footer>
   <div class="scissorLine">
@@ -367,8 +385,8 @@
 
 
 <!-- Js pullins at bottom of body -->
-<!-- Pulling in jQuery (online repository) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Pulling in tipSearch search bar -->
+
 
 <!-- pulling in bootstrap javascript (online repository) needs to be aftyer jQuery pull in -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
