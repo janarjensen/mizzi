@@ -53,22 +53,39 @@ var tipuesearch_related = {'searches': [
 
 
 // Internal strings
+// English
+// var tipuesearch_string_1 = 'No title';
+// var tipuesearch_string_2 = 'Showing results for';
+// var tipuesearch_string_3 = 'Search instead for';
+// var tipuesearch_string_4 = '1 result';
+// var tipuesearch_string_5 = 'results';
+// var tipuesearch_string_6 = 'Back';
+// var tipuesearch_string_7 = 'More';
+// var tipuesearch_string_8 = 'Nothing found.';
+// var tipuesearch_string_9 = 'Common words are largely ignored.';
+// var tipuesearch_string_10 = 'Search too short';
+// var tipuesearch_string_11 = 'Should be one character or more.';
+// var tipuesearch_string_12 = 'Should be';
+// var tipuesearch_string_13 = 'characters or more.';
+// var tipuesearch_string_14 = 'seconds';
+// var tipuesearch_string_15 = 'Searches related to';
 
-var tipuesearch_string_1 = 'No title';
-var tipuesearch_string_2 = 'Showing results for';
-var tipuesearch_string_3 = 'Search instead for';
-var tipuesearch_string_4 = '1 result';
-var tipuesearch_string_5 = 'results';
-var tipuesearch_string_6 = 'Back';
-var tipuesearch_string_7 = 'More';
-var tipuesearch_string_8 = 'Nothing found.';
-var tipuesearch_string_9 = 'Common words are largely ignored.';
-var tipuesearch_string_10 = 'Search too short';
-var tipuesearch_string_11 = 'Should be one character or more.';
-var tipuesearch_string_12 = 'Should be';
-var tipuesearch_string_13 = 'characters or more.';
-var tipuesearch_string_14 = 'seconds';
-var tipuesearch_string_15 = 'Searches related to';
+// Nederlands
+var tipuesearch_string_1 = 'Geen titel';
+var tipuesearch_string_2 = 'Resultaten voor';
+var tipuesearch_string_3 = 'Zoek in de plaats van';
+var tipuesearch_string_4 = '1 resultaat';
+var tipuesearch_string_5 = 'Resultaten';
+var tipuesearch_string_6 = 'Terug';
+var tipuesearch_string_7 = 'Meer';
+var tipuesearch_string_8 = 'Niets gevonden.';
+var tipuesearch_string_9 = 'Standaard woorden worden grotendeels genegeerd.';
+var tipuesearch_string_10 = 'Zoekopdracht is te kort';
+var tipuesearch_string_11 = 'Moet een karakter of meer zijn.';
+var tipuesearch_string_12 = 'Moet zijn';
+var tipuesearch_string_13 = 'karakters of meer.';
+var tipuesearch_string_14 = 'seconden';
+var tipuesearch_string_15 = 'Zoekopdrachten gerelateerd aan';
 
 
 // Internals
@@ -77,4 +94,3 @@ var tipuesearch_string_15 = 'Searches related to';
 // Timer for showTime
 
 var startTimer = new Date().getTime();
-
