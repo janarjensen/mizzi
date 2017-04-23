@@ -13,6 +13,8 @@
   .tipue_search_right .fa-search {
     margin-left: -30px;
     margin-top: -28px; }
+    .tipue_search_right .fa-search:hover {
+      cursor: pointer; }
 
 html {
   width: 100%; }
