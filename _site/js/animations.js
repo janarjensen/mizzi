@@ -47,6 +47,6 @@ $(".fa-scissors").on("click", function(){
   $(".egg").addClass("eggTada");
 });
 
-$(".searchBtn").click(function(){
-  alert("Druk niet op mij, druk op ENTER");
-});
+// $(".searchBtn").click(function(){
+//   alert("Druk niet op mij,  druk op ENTER");
+// });
