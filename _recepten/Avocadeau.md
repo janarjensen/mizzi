@@ -7,7 +7,6 @@ dateAdded: 15 April 2017
 intro: HABA HABA lekker en super snel
 prepTime: 1
 cookTime: 0
-time: 1
 ontbijt: true
 tussendoortje: true
 lunch: false

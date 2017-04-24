@@ -298,6 +298,7 @@ footer #footerNav {
   padding: 5vw; }
 
 #receptSection .pageTitleElement {
+  background-color: #fefec8;
   background-position: center;
   background-size: cover;
   height: 50vh;
