@@ -1,7 +1,7 @@
 ---
 layout: recept
 title: Gemberkoek van een GINGER kid
-imageName: gingerCake.jpg
+imageName: gemberkoek.jpg
 cuttingBoard: gingerCake.png
 dateAdded: 15 April 2017
 intro: Sweet and spicy, gettin' Feisty
