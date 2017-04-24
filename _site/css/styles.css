@@ -12,7 +12,8 @@
     color: #f17a04; }
   .tipue_search_right .fa-search {
     margin-left: -30px;
-    margin-top: -28px; }
+    margin-top: -28px;
+    color: #fefec8; }
     .tipue_search_right .fa-search:hover {
       cursor: pointer; }
 
@@ -76,7 +77,7 @@ ul {
   padding: 0px; }
   ul li {
     line-height: 50px;
-    background: url("../favicon.ico") 0 50% no-repeat;
+    background: url("../favicon.ico") 0 8px no-repeat;
     padding: 0px 0px 0px 50px; }
 
 b {

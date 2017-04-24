@@ -35,7 +35,7 @@ Zet de oven aan op 180 graden.
 Leg het bladerdeeg op het aanrecht om te ontdooien.
 Snij de pompoen in grove stukken.
 Snij de sjalotten in grove parten.
-Zet een koekenpan, die ook in de oven mag, op het vuur. Doe er lekker veel boter in. Bak de pompoen 10 minuten en doe dan de sjalotten met de salie erbij. Bak 5 minuten mee. Giet er een flinke scheut ammaretto over heen en ruik even, deze geur is heerlijk! Voeg zout en peper toe. Verdeel de pompoen en sjalotten gelijkmatig in de pan en leg de stukken geitenkaas er tussen.
+Zet een koekenpan (+-24cm), die ook in de oven mag, op het vuur. Doe er lekker veel boter in. Bak de pompoen 10 minuten en doe de sjalotten met de salie erbij. Bak 5 minuten mee. Giet er een flinke scheut ammaretto overheen en ruik even, deze geur is heerlijk! Voeg zout en peper toe. Verdeel de pompoen en sjalotten gelijkmatig in de pan en leg de stukken geitenkaas er tussen.
 Bedek je baksel met het bladerdeeg.
 
 Zet de pan een half uur in de oven, tot de bovenkant goudbruin is.
