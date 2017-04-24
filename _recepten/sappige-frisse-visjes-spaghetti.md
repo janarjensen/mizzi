@@ -4,7 +4,7 @@ title: Sappige frisse visjes spaghetti
 imageName: visSpaghetti.jpg
 cuttingBoard: visSpaghetti.png
 dateAdded: 24 April 2017
-intro: Dit verkwikkende maal zingt zomer en lente en is het lekkerst al dente. Easy peasy, lemon squeezy!
+intro: Zomer en lente is het lekkerst al dente. Easy peasy, lemon squeezy!
 prepTime: 10
 cookTime: 10
 ontbijt: false
