@@ -19,21 +19,7 @@ leftOvers: false
 
 JE MOEDER! Ja. Daar kan je nog eens wat van leren. Deze gemberkoek maakt mijn moeder namelijk al vele jaren, en haar GINGER kid (ik dus) heeft haar lekkere baksel opgepimpt tot in de 7de hemel. En, weet je wat, je kan deze koek eten als ontbijt, tussendoortje of gewoon de hele dag door als je daar zin in hebt want het is gezond. Daar houden we toch van tegenwoordig?
 
-##### Ingrediënten voor één gemberkoeks
-* Groot stuk verse gember
-* Rozijnen
-* Havervlokken
-* Meel
-* Bakpoeder
-* Eieren
-* Zonnebloemolie
-* Melk (koe, soya, haver, geit, amandel, whatever floats your boat)
-* Kaneel
-* Zout
-* Sesamzaadjes
-* Honing
-=======
-##### Ingredienten voor <span class="personen">2</span> personen
+##### Ingrediënten voor één gemberkoek
 * Groot stuk verse gember (<b>100</b> gram)
 * <b>100</b> gram rozijnen
 * <b>200</b> gram havervlokken
@@ -46,8 +32,6 @@ JE MOEDER! Ja. Daar kan je nog eens wat van leren. Deze gemberkoek maakt mijn mo
 * flinke snuf zout
 * <b>4</b> el sesamzaadjes
 * <b>8</b> el honing
->>>>>>> 5e28b5058360589863574e39069c6f2d4e2291aa
-
 
 ##### Zo maak je het:
 Zet de oven aan op 180 graden.
