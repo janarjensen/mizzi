@@ -1,5 +1,5 @@
 ---
-layout: recept
+layout: taart
 title: Tarte tatin van Lucien
 imageName: tarteTatin.jpg
 cuttingBoard: tarteTatin.png
@@ -19,7 +19,7 @@ leftOvers: false
 
 God mag weten wie Lucien is. Wat ik wel weet is dat deze tarte tatin je tong laat flapperen. Niet normaal lekker dit. Hij is knapperig, zacht, zoet en zout tegelijk en toch best makkelijk te versieren. Ik dacht dat tarte tatins maken niet te doen was. Wel dus. Easy peasy, je snijdt, bakt, bedekt en de oven doet de rest. En ja, dan het spannende onderdeel, omdraaien maar! Welcome to the flip side of things!
 
-##### Ingredienten voor <span class="personen">2</span> personen
+##### Ingrediënten voor één tarte tatin
 * <b>500</b> gram pompoen
 * <b>200</b> gram sjalotten
 * <b>100</b> gram zachte geitenkaas
