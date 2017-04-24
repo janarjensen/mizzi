@@ -6,7 +6,7 @@ cuttingBoard: gingerCake.png
 dateAdded: 15 April 2017
 intro: Sweet and spicy, gettin' Feisty
 prepTime: 15
-cookTime: 30
+cookTime: 30-40
 time: 45
 ontbijt: true
 tussendoortje: true
