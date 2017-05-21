@@ -34,8 +34,8 @@ Deze pizza’s zijn lekker en lekker makkelijk. In een handomdraai ben je aan he
 ![pizza salami][pizzaSalami]
 
 
-**pizza serano**
-* 3 plakken serano ham
+**pizza serrano**
+* 3 plakken serrano ham
 * 4 cherry tomaatjes gehalveerd
 * Handje rucola
 * 5 dotjes rode pesto
