@@ -333,6 +333,9 @@ footer #footerNav {
     margin: 20px; }
     #receptSection .contentContent label .inputBar input {
       margin: 0 20px; }
+#receptSection .contentContent img {
+  max-height: 50vh;
+  max-width: 90vw; }
 #receptSection .contentContent .cookInfo {
   display: flex;
   flex-direction: row;
