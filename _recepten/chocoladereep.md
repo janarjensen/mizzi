@@ -16,8 +16,6 @@ toetje: false
 leftOvers: false
 ---
 
-Dit cadeautje is altijd goed. Het is namelijk HABA HABA lekker en super snel. In één minuut heb je een heerlijk ontbijtje, tussendoortje of side dish.
-
 ##### Ingrediënten voor 1 reep
 * 75 gram kokosolie
 * 50 gram rauwe cacaopoeder
