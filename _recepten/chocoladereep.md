@@ -22,13 +22,13 @@ leftOvers: false
 * 4 el honing
 
 ##### Doe er dan doorheen wat jij lekker vindt:
-* hazelnoten, ik hou van hele bergen hazelnoten in mn chocolade
-* pecannoten en grof zeezout, oh my dit is lekker
-* pistachenoten
-* kokosrasp
-* mix van noten en cranberries
-* oreo koekjes of m&m’s als je het toch nog ongezond wil maken, maar wel erg lekker!
-* whatever floats your boat...
+* Hazelnoten, ik hou van hele bergen hazelnoten in mn chocolade
+* Pecannoten en grof zeezout, oh my dit is lekker
+* Pistachenoten
+* Kokosrasp
+* Mix van noten en cranberries
+* Oreo koekjes of m&m’s als je het toch nog ongezond wil maken, maar wel erg lekker!
+* Whatever floats your boat...
 
 
 ##### Zo maak je het:

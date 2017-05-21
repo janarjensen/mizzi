@@ -22,14 +22,14 @@ Deze pizza’s zijn lekker en lekker makkelijk. In een handomdraai ben je aan he
 ##### Basis
 * 1 tortilla vel
 * 4 el pastasaus
-* knoflook naar smaak
-* geraspte kaas
+* Knoflook naar smaak
+* Geraspte kaas
 
 ##### Topping ideeën
 **pizza salami**
 * 5 plakjes salami
 * 4 cherry tomaatjes gehalveerd
-* handje verse basilicum
+* Handje verse basilicum
 
 ![pizza salami][pizzaSalami]
 
@@ -37,7 +37,7 @@ Deze pizza’s zijn lekker en lekker makkelijk. In een handomdraai ben je aan he
 **pizza serano**
 * 3 plakken serano ham
 * 4 cherry tomaatjes gehalveerd
-* handje rucola
+* Handje rucola
 * 5 dotjes rode pesto
 
 ![pizza serano][pizzaSerano]
