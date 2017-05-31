@@ -24,7 +24,7 @@ Goed. Dit is gewoon goed. Deze pasta kan je voor jezelf of voor z’n twee maken
 * <b>4</b> ansjovisjes uit een blikje of een potje
 * <b>1</b> teen knoflook
 * <b>1</b> cayennepepertje
-* <b>1</b> handje verse basislicum
+* <b>2</b> handjes verse basislicum
 * Pasta
 * Olijfolie
 

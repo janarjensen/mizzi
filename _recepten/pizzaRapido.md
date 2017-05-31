@@ -4,7 +4,7 @@ title: Pizza deliziosa rapidamente
 imageName: pizzaSalami.jpg
 cuttingBoard: pizza.png
 dateAdded: 21 Mei 2017
-intro: Homemade pizza in 10 miuten
+intro: Homemade pizza in 10 minuten
 prepTime: 5
 cookTime: 5
 ontbijt: false
