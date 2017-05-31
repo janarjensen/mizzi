@@ -17,7 +17,7 @@ leftOvers: false
 ---
 Maak een kan ijsthee om de hele dag van te slurpen, om mee te nemen naar het strand of voor een zwoele BBQ avond.
 
-##### Ingrediënten voor 1 liter
+##### Ingrediënten voor 1 liter:
 * 2 zakjes Ginkgo thee van Yogi Tea
 * 2 flinke takken met blaadjes verse munt
 * Citroensap van 2 citroenen

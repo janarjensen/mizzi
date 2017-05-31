@@ -18,7 +18,7 @@ leftOvers: false
 
 Vis moet zwemmen. Zwemmen in de zee. Ja inderdaad in de zee, meren, beekjes en rivieren, maar ook af en toe in je pan. Want dat is goed voor je hart enzo en voor allerlei andere dingen zeggen ze. Waar ik dus achter gekomen ben, is dat als je haar, dat malse visje, ook even laat zwemmen in overheerlijke smaakexplosie dingen, zo’n vissy little missy, helemaal opleeft, gaat shinen op je bord en ik beloof je, jij geniet hier van!
 
-##### Ingrediënten voor <span class="personen">2</span> personen
+##### Ingrediënten voor <span class="personen">2</span> personen:
 * <b>4</b> scholletjes
 * <b>12</b> sappige dieprode tomaatjes
 * <b>1</b> bosje verse bladpeterselie

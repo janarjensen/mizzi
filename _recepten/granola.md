@@ -19,7 +19,7 @@ Ontbijten daar doe ik niet aan. Hink stap sprong en ik ben op de plaats van best
 
 Moet je nagaan wat voor een overheerlijk, zinnenprikkelend, levensvreugdeverhogend ontbijt er klaar moet staan, wil ik uit mijn bed springen...  This is it! Dit is waar ik mijn ogen voor open waaier, mijn deken van me afgooi, trolololololll this girl is on fire...
 
-##### Ingrediënten
+##### Ingrediënten:
 * 100 gram Havervlokken
 * 6 el kokosrasp
 * 1 theelepel gemberpoeder

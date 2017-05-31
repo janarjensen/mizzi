@@ -18,7 +18,7 @@ leftOvers: false
 
 De venkel knispert tussen je tanden en de grapefruit explodeert in je mond, grrrrrr dit is watertandend lekker.
 
-##### Ingrediënten voor <span class="personen">2</span> personen
+##### Ingrediënten voor <span class="personen">2</span> personen:
 * <b>1</b> venkel
 * <b>1</b> rode grapefruit
 * <b>2</b> el olijfolie

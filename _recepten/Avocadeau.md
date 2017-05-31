@@ -18,7 +18,7 @@ leftOvers: false
 
 Dit cadeautje is altijd goed. Het is namelijk HABA HABA lekker en super snel. In één minuut heb je een heerlijk ontbijtje, tussendoortje of side dish.
 
-##### Ingrediënten voor <span class="personen">2</span> personen
+##### Ingrediënten voor <span class="personen">2</span> personen:
 * <b>1</b> avocado
 * <b>2</b> el olijfolie
 * <b>2</b> tl soyasaus

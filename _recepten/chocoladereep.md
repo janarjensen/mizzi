@@ -16,7 +16,7 @@ toetje: false
 leftOvers: false
 ---
 
-##### Ingrediënten voor 1 reep
+##### Ingrediënten voor 1 reep:
 * 75 gram kokosolie
 * 50 gram rauwe cacaopoeder
 * 4 el honing

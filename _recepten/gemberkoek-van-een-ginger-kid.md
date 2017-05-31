@@ -19,7 +19,7 @@ leftOvers: false
 
 JE MOEDER! Ja. Daar kan je nog eens wat van leren. Deze gemberkoek maakt mijn moeder namelijk al vele jaren, en haar GINGER kid (ik dus) heeft haar lekkere baksel opgepimpt tot in de 7de hemel. En, weet je wat, je kan deze koek eten als ontbijt, tussendoortje of gewoon de hele dag door als je daar zin in hebt want het is gezond. Daar houden we toch van tegenwoordig?
 
-##### Ingrediënten voor één gemberkoek
+##### Ingrediënten voor één gemberkoek:
 * Groot stuk verse gember (<b>100</b> gram)
 * <b>100</b> gram rozijnen
 * <b>200</b> gram havervlokken

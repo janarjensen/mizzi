@@ -18,14 +18,14 @@ leftOvers: true
 
 Deze pizza’s zijn lekker en lekker makkelijk. In een handomdraai ben je aan het smikkelen. Je eet je vingers er bij op. Dit is namelijk echt fingerfood!
 
-##### Ingrediënten voor 1 pizza
-##### Basis
+##### Ingrediënten voor 1 pizza:
+##### Basis:
 * 1 tortilla vel
 * 4 el pastasaus
 * Knoflook naar smaak
 * Geraspte kaas
 
-##### Topping ideeën
+##### Topping ideeën:
 **pizza salami**
 * 5 plakjes salami
 * 4 cherry tomaatjes gehalveerd

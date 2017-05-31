@@ -17,7 +17,7 @@ leftOvers: false
 ---
 Goed. Dit is gewoon goed. Deze pasta kan je voor jezelf of voor z’n twee maken, maar het is ook heel makkelijk te maken voor tutta la famiglia of al je BFFs. De saus kan je een dagje van te voren maken, dan is de smaak nog intenser. Intensify yourself!
 
-##### Ingrediënten voor <span class="personen">2</span> personen
+##### Ingrediënten voor <span class="personen">2</span> personen:
 * <b>1</b> bakje a (5) chipolataworstjes
 * <b>500</b> gram tomaten
 * <b>1</b> blikje a (140 gram) tomatenpuree

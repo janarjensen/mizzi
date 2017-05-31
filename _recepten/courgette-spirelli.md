@@ -16,7 +16,7 @@ toetje: false
 leftOvers: false
 ---
 
-##### Ingrediënten voor <span class="personen">2</span> personen
+##### Ingrediënten voor <span class="personen">2</span> personen:
 * <b>1</b> courgette
 * <b>100</b> gram groene aspergetips
 * <b>100</b> gram rivierkreeftjes
