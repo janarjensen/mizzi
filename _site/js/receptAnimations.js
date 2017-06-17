@@ -1,13 +1,21 @@
 // Store volumes in array
-var volumeArr = [];
-var i = 0;
-$("b").each( function() {
-    volumeArr[i++] = $(this).text();
-});
-console.log(volumeArr);
+// var volumeArr = [];
+// var i = 0;
+// $("b").each( function() {
+//     volumeArr[i++] = $(this).text();
+// });
+// console.log(volumeArr);
+//
+// // create new array with new volume
+// var newVolumeArr = volumeArr;
+// $.each(newVolumeArr, function(index, value) {
+//     newVolumeArr[index] = value * 2;
+// });
+// onsole.log(newVolumeArr);
 
 // set nr of persons for recipe
 var nrOfPStart = 2
+
 // change number of people in h2
 $("input[type='range']").on("input change", function(event){
   $(".personen").text($("input[type='range']").val());
