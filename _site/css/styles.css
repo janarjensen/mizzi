@@ -306,7 +306,10 @@ footer #footerNav {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin: 25px 0px; }
+  margin: 25px 0px;
+  cursor: pointer; }
+#receptSection .noPageTitle h1 {
+  display: none; }
 #receptSection .contentTitleInfo {
   text-shadow: 0px 4px 3px black;
   margin-top: -65px;
@@ -322,7 +325,8 @@ footer #footerNav {
       color: #ffb63a; }
   #receptSection .contentTitleInfo #date {
     color: #fefec8;
-    align-self: baseline; }
+    align-self: baseline;
+    text-align: right; }
 #receptSection .contentContent label {
   width: 100%; }
   #receptSection .contentContent label h5 {
@@ -353,8 +357,6 @@ footer #footerNav {
 #receptSection .contentContent ul:hover {
   cursor: pointer;
   cursor: hand; }
-#receptSection .contentContent #date {
-  text-align: right; }
 #receptSection .contentContent a {
   text-decoration: underline; }
 #receptSection .contentContent input[type=range] {
