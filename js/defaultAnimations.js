@@ -15,11 +15,6 @@ $("#searchIcon").click(function(){
 //
 // });
 
-// toggle text overpicture
-$(".pageTitleElement").on("click", function(){
-  $(this).toggleClass("noPageTitle");
-});
-
 // Slide out right scissor
 $(".fa-scissors").on("click", function(){
   $(this).addClass("slideOutRight");
